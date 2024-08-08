@@ -7,7 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am Mümin Ahmedoğlu, studying for my Master's in Management and Technology at the Technical University of Munich (TUM). My academic interest lies at the junction of Strategy, Policy, Management, and Innovation, with a technological specialization in Computer Engineering. On that note, my studies have equipped me with a robust understanding of the politics of innovation, current issues related to technology management, and public policy.
+
+My key areas of research interest lie at the intersection of defense innovation, arms control, disarmament, and how they relate more broadly to global security and technology policy. In particular, I focus on how changes in technologies influence the dynamics of international security and policy development. Finally, I am also interested in the economic and political factors that drive innovation in the defense sector, the role of the industrial base and technological infrastructure in fostering innovation, and how innovation links back into defense exports.
+
+My current research projects include an empirical comparative study of the defense policies of Turkey and Germany, re-purposing military UAVs for civilian uses, and the global dynamics of defense spending. These projects use advanced regression models and impulse response functions applied to multi-country data to further advance the present understanding of defense innovation's economic, political, and technological drivers.
+
+I mastered Arabic, English, and Turkish, and I am currently learning German, which helps me to enhance my ability to collaborate internationally. My goal is to be able soon to contribute to defense and security with cutting-edge research and, therefore, share it with the broader academic and policy-making communities.
+
+Feel free to explore my work and reach out for possible collaborations or discussions on topics related to defense innovation and technology management.
 
 A data-driven personal website
 ======
