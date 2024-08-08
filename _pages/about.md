@@ -61,15 +61,19 @@ During my studies, I have taken several relevant courses, including:
 During my studies, I have taken several relevant courses, including:
 
 - Introduction to Probability
-- Linear Models
 - Introduction to Statistics
-- Engineering Economics
-- Linear Programming
-- Stochastic Models in Operations Research
-- An Introduction to Combinatorial Analysis
+- Statistical Linear Models
 - Introduction to Data Mining
+- Linear Programming
+- Network Flows And Integer Programming
+- Stochastic Models in Operations Research
+- Simulation
+- An Introduction to Combinatorial Analysis
 - Systems Thinking
 - Decision Analysis
+- Principles Of Economics I
+- Principles Of Economics II
+- Engineering Economy
 - Financial Engineering
 - Scientific Computing for Industrial Engineering
 
