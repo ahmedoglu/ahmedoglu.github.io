@@ -72,9 +72,12 @@ During my studies, I have taken several relevant courses, including:
 - Financial Engineering
 - Scientific Computing for Industrial Engineering
 
-Site-wide configuration
+Professional Experience
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+**STM - Ankara: As a Project Engineer**: I managed technical projects related to tactical mini UAV systems and R&D projects for defense and military use, including KARGU, BOYGA, ALPAGU, and TOGAN.
+**Siemens Advanta Solutions - Munich**: Currently, I am working as a Strategy, Digitalization, and Sustainability Working Student, collaborating on sustainability-driven strategic initiatives and supporting regional projects.
+**TUM School of Management - Munich**: As an IT Management and Enterprise Processes Working Student, I am involved in IT process design and integration, process optimization, and agile project management.
+**Allianz SE - Munich**: Previously, I served as a Group IT Strategy and Management Working Student, managing the Enterprise Architecture Repository and leading CIO communications and IT transformation initiatives.
 
 Create content & metadata
 ------
