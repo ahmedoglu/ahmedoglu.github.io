@@ -10,11 +10,11 @@
 locale                   : "en-US"
 title                    : "Mümin Ahmedoğlu"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Mümin Ahmedoğlu"
+description              : &description "Researcher | Defense Technology & Innovation Management & Policy | B.Sc. Industrial Engineering | M.Sc. Management & Technology | Turkey | Germany"
+url                      : https://ahmedoglu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "https://ahmedoglu.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -22,17 +22,17 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Mümin Ahmedoğlu"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Mümin Ahmedoğlu is a master's student at the Technical University of Munich (TUM), specializing in Management and Technology. His research focuses on defense innovation, arms control, and disarmament. Fluent in Arabic, English, and Turkish, he is dedicated to advancing knowledge in defense and security through innovative research and international collaboration."
+  location         : "Munich - Germany"
+  employer         : "Technical University of Munich"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "mumin.ahmedoglu@tum.de" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=KxX2plAAAAAJ"
   impactstory      : # URL
   orcid            : "http://orcid.org/yourorcidurl"
   semantic         : # URL
@@ -43,12 +43,12 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "ahmedoglu"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
