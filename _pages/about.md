@@ -17,9 +17,17 @@ I mastered Arabic, English, and Turkish, and I am currently learning German, whi
 
 Feel free to explore my work and reach out for possible collaborations or discussions on topics related to defense innovation and technology management.
 
-A data-driven personal website
+Research Interests
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+My research interests encompass a broad range of topics within the fields of innovation in defense, arms control, and disarmament, including:
+Defense Innovation: Investigating how technological advancements such as UAVs, AI, and cyber warfare reshape military capabilities and influence global security policies.
+Arms Control: Examining international treaties, policies, and mechanisms designed to regulate the proliferation and development of conventional and unconventional weapons, including nuclear, biological, chemical, and traditional arms, to enhance global security and stability.
+Disarmament: Exploring strategies and frameworks for the systematic reduction and abolition of armed forces and weapons, aiming to create conditions for peace and stability.
+Dynamics of Global Security: Analyzing the interplay of geopolitical and economic factors underlying defense policies and military spending in various countries, focusing on comparative analysis.
+Industrial Bases and Technological Infrastructure: Studying the role of industrial bases and technological infrastructure in supporting innovation and maintaining a competitive position in defense capabilities.
+Policy Making: Assessing how defense innovation impacts national and international policy-making and exploring ways to optimize these policies to improve security while fostering technological advancement.
+Feedback Loops of Defense Export: Investigating how successful defense exports drive innovation within the defense sector.
+These interests shape my current and future research projects. I apply advanced methodologies, including regression models and impulse response functions, to understand the complex interactions within these areas.
 
 Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
