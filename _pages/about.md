@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Researcher in Defense Innovation and Technology Management"
+title: "Researcher in Defense Innovation and Technology Management & Policy"
 author_profile: true
 redirect_from: 
   - /about/
