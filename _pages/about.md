@@ -74,7 +74,7 @@ During my studies, I have taken several relevant courses, including:
 
 Professional Experience
 ------
-**STM - Ankara: As a Project Engineer**: I managed technical projects related to tactical mini UAV systems and R&D projects for defense and military use, including KARGU, BOYGA, ALPAGU, and TOGAN.
+**STM - Ankara**: As a Project Engineer, I managed technical projects related to tactical mini UAV systems and R&D projects for defense and military use, including KARGU, BOYGA, ALPAGU, and TOGAN.
 
 **Siemens Advanta Solutions - Munich**: Currently, I am working as a Strategy, Digitalization, and Sustainability Working Student, collaborating on sustainability-driven strategic initiatives and supporting regional projects.
 
