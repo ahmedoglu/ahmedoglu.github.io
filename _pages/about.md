@@ -34,6 +34,7 @@ My research interests encompass a broad range of topics within the fields of inn
 - **Policy Making:** Assessing how defense innovation impacts national and international policy-making and exploring ways to optimize these policies to improve security while fostering technological advancement.
 
 - **Feedback Loops of Defense Export:** Investigating how successful defense exports drive innovation within the defense sector.
+
 These interests shape my current and future research projects. I apply advanced methodologies, including regression models and impulse response functions, to understand the complex interactions within these areas.
 
 Academic Background
