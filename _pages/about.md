@@ -39,6 +39,7 @@ These interests shape my current and future research projects. I apply advanced 
 Academic Background
 ======
 **M.Sc. Management and Technology, Technical University of Munich**: My major is Strategy, Policy, Management, and Innovation, with a technology focus on Computer Engineering. 
+
 During my studies, I have taken several relevant courses, including:
 
 - Politics of Innovation and Technology
@@ -55,6 +56,7 @@ During my studies, I have taken several relevant courses, including:
 - Introduction to Programming
 
 **B.Sc. Industrial Engineering, Middle East Technical University**: I specialized in systems design and developed my bachelor's thesis on improving sales processes through an offline case decision support system design.
+
 During my studies, I have taken several relevant courses, including:
 
 - Introduction to Probability
