@@ -36,14 +36,18 @@ My research interests encompass a broad range of topics within the fields of inn
 **Feedback Loops of Defense Export:** Investigating how successful defense exports drive innovation within the defense sector.
 These interests shape my current and future research projects. I apply advanced methodologies, including regression models and impulse response functions, to understand the complex interactions within these areas.
 
-Getting started
+Academic Background
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+**M.Sc. Management and Technology, Technical University of Munich**: My major is Strategy, Policy, Management, and Innovation, with a technology focus on Computer Engineering. During my studies, I have taken several relevant courses, including:
+
+Politics of Innovation and Technology
+Current Issues in Technology Management
+Introduction to Science and Technology Policy
+Innovation, Society, and Public Policy
+Applied Strategy and Organization
+Advanced Topics in Innovation & Entrepreneurship: Innovation and Technology Management in Practice
+
+**B.Sc. Industrial Engineering, Middle East Technical University**: I specialized in systems design and developed my bachelor's thesis on improving sales processes through an offline case decision support system design.
 
 Site-wide configuration
 ------
