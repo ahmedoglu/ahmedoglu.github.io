@@ -13,7 +13,7 @@ My key areas of research interest lie at the intersection of **defense innovatio
 
 My current research projects include an **empirical comparative study** of the **defense policies** of Turkey and Germany, **re-purposing** **military UAVs for civilian uses**, and the global dynamics of defense spending. These projects use advanced regression models and impulse response functions applied to multi-country data to further advance the present understanding of defense innovation's economic, political, and technological drivers.
 
-I mastered Arabic, English, and Turkish, and I am currently learning German, which helps me to enhance my ability to collaborate internationally. My goal is to be able soon to contribute to defense and security with cutting-edge research and, therefore, share it with the broader academic and policy-making communities.
+I mastered **Arabic**, **English**, and **Turkish**, and I am currently learning **German**, which helps me to enhance my ability to **collaborate** internationally. My goal is to be able soon to contribute to defense and security with cutting-edge research and, therefore, share it with the broader academic and policy-making communities.
 
 Feel free to explore my work and reach out for possible collaborations or discussions on topics related to defense innovation and technology management.
 
