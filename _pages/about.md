@@ -75,8 +75,11 @@ During my studies, I have taken several relevant courses, including:
 Professional Experience
 ------
 **STM - Ankara: As a Project Engineer**: I managed technical projects related to tactical mini UAV systems and R&D projects for defense and military use, including KARGU, BOYGA, ALPAGU, and TOGAN.
+
 **Siemens Advanta Solutions - Munich**: Currently, I am working as a Strategy, Digitalization, and Sustainability Working Student, collaborating on sustainability-driven strategic initiatives and supporting regional projects.
+
 **TUM School of Management - Munich**: As an IT Management and Enterprise Processes Working Student, I am involved in IT process design and integration, process optimization, and agile project management.
+
 **Allianz SE - Munich**: Previously, I served as a Group IT Strategy and Management Working Student, managing the Enterprise Architecture Repository and leading CIO communications and IT transformation initiatives.
 
 Create content & metadata
