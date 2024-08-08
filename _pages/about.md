@@ -41,10 +41,15 @@ Academic Background
 **M.Sc. Management and Technology, Technical University of Munich**: My major is Strategy, Policy, Management, and Innovation, with a technology focus on Computer Engineering. During my studies, I have taken several relevant courses, including:
 
 Politics of Innovation and Technology
+
 Current Issues in Technology Management
+
 Introduction to Science and Technology Policy
+
 Innovation, Society, and Public Policy
+
 Applied Strategy and Organization
+
 Advanced Topics in Innovation & Entrepreneurship: Innovation and Technology Management in Practice
 
 **B.Sc. Industrial Engineering, Middle East Technical University**: I specialized in systems design and developed my bachelor's thesis on improving sales processes through an offline case decision support system design.
