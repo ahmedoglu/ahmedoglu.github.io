@@ -68,7 +68,7 @@ During my studies, I have taken several relevant courses, including:
 - Network Flows And Integer Programming
 - Stochastic Models in Operations Research
 - Simulation
-- An Introduction to Combinatorial Analysis
+- Introduction to Combinatorial Analysis
 - Systems Thinking
 - Decision Analysis
 - Principles Of Economics I
