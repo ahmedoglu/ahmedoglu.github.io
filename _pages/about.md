@@ -17,6 +17,12 @@ I mastered **Arabic**, **English**, and **Turkish**, and I am currently learning
 
 Feel free to explore my work and reach out for possible collaborations or discussions on topics related to defense innovation and technology management.
 
+Current Research Projects
+======
+- **Defense Innovation and Policy Dynamics**: In collaboration with Professor Dr. Paul W. Thurner and Dr. Oliver Pamp at Ludwig-Maximilians-Universität München (LMU), I am currently developing an empirical model that investigates the dynamics of defense innovation at both country and company levels. This project aims to conceptualize, measure, and understand the economic, political, and technological drivers of innovation in the defense sector, with particular focus on how these factors interact to influence global security policies.
+
+- **From the Periphery to the Centre? Czech and Turkish Ambition in NATO’s Airspace Industry**: In collaboration with Dr. Bohuslav Pernica, this comparative study assesses the ambitions of Czechia and Turkey within NATO's airspace industry, particularly focusing on their respective military training jets—the L-39 NG and TAI Hürjet. The research explores how each country leverages its industrial base and government support to develop, produce, and export these advanced pilot training jets designed for the 4th–5th generation supersonic Multi Role Combat Aircraft (MRCA). The study includes a detailed analysis of the involvement and strategic support by both governments in these projects, providing insights into how smaller NATO members can influence and integrate into the broader alliance's defense capabilities.
+
 Research Interests
 ======
 My research interests encompass a broad range of topics within the fields of innovation in defense, arms control, and disarmament, including:
