@@ -27,19 +27,21 @@ Research Interests
 ======
 My research interests encompass a broad range of topics within the fields of innovation in defense, arms control, and disarmament, including:
 
-- **Defense Innovation:** Investigating how technological advancements such as UAVs, AI, and cyber warfare reshape military capabilities and influence global security policies.
-
-- **Arms Control:** Examining international treaties, policies, and mechanisms designed to regulate the proliferation and development of conventional and unconventional weapons, including nuclear, biological, chemical, and traditional arms, to enhance global security and stability.
-
-- **Disarmament:** Exploring strategies and frameworks for the systematic reduction and abolition of armed forces and weapons, aiming to create conditions for peace and stability.
-
-- **Dynamics of Global Security:** Analyzing the interplay of geopolitical and economic factors underlying defense policies and military spending in various countries, focusing on comparative analysis.
-
-- **Industrial Bases and Technological Infrastructure:** Studying the role of industrial bases and technological infrastructure in supporting innovation and maintaining a competitive position in defense capabilities.
-
-- **Policy Making:** Assessing how defense innovation impacts national and international policy-making and exploring ways to optimize these policies to improve security while fostering technological advancement.
-
-- **Feedback Loops of Defense Export:** Investigating how successful defense exports drive innovation within the defense sector.
+- **Defense Innovation**: Investigating how technological advancements such as UAVs, AI, and cyber warfare reshape military capabilities and influence global security policies.
+  
+- **Economics of Defense Innovation**: Exploring the economic factors that drive technological advancements in the defense sector, including the funding, cost structures, and market dynamics that influence innovation and its adoption within military and defense frameworks.
+  
+- **Defense Export as a Driver of Innovation**: Examining how successful defense exports contribute to further innovation within the defense sector by creating feedback loops that stimulate R&D and the adoption of new technologies, ultimately enhancing national security and global competitiveness.
+  
+- **Arms Control**: Examining international treaties, policies, and mechanisms designed to regulate the proliferation and development of conventional and unconventional weapons, including nuclear, biological, chemical, and traditional arms, to enhance global security and stability.
+  
+- **Disarmament**: Exploring strategies and frameworks for the systematic reduction and abolition of armed forces and weapons, aiming to create conditions for peace and stability.
+  
+- **Dynamics of Global Security**: Analyzing the interplay of geopolitical and economic factors underlying defense policies and military spending in various countries, focusing on comparative analysis.
+  
+- **Industrial Bases and Technological Infrastructure**: Studying the role of industrial bases and technological infrastructure in supporting innovation and maintaining a competitive position in defense capabilities.
+  
+- **Policy Making**: Assessing how defense innovation impacts national and international policy-making and exploring ways to optimize these policies to improve security while fostering technological advancement.
 
 These interests shape my current and future research projects. I apply advanced methodologies, including regression models and impulse response functions, to understand the complex interactions within these areas.
 
