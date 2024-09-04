@@ -2,7 +2,7 @@
 title: "Determinants of Defence Technology Innovation: A Comparative Analysis of Economic, Geopolitical, And Policy Factors Across Leading and Emerging Nations"
 collection: publications
 permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'defence technology innovation; economics of defence'
+excerpt: 'defence technology innovation, economics of defence'
 date: 2024-09-02
 venue: 'To be published'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
