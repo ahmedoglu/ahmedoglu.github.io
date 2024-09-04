@@ -2,7 +2,7 @@
 title: "Balancing Act: Innovation, Society, and Defense Policy - A Comparative Analysis of Turkey And Germany"
 collection: publications
 permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about Innovation, Society, Public Policy.'
+excerpt: 'Innovation, Society, Public Policy.'
 date: 2024-02-01
 venue: 'To be published'
 slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
