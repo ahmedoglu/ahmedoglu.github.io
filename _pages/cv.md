@@ -60,7 +60,7 @@ Work experience
  
 
 
--v**Siemens Advanta Solutions - Munich: Strategy, Digitalization & Sustainability Working Student**
+- **Siemens Advanta Solutions - Munich: Strategy, Digitalization & Sustainability Working Student**
   - I worked as a Strategy, Digitalization, and Sustainability Working Student, collaborating on sustainability-driven strategic initiatives and supporting regional projects.
 
 
