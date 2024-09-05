@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-- **M.Sc. Management and Technology, Technical University of Munich: My major is Economics, Policy, and Innovation, with a technology focus on Computer Engineering.**
+- **M.Sc. Management and Technology, Technical University of Munich**
+  My major is Economics, Policy, and Innovation, with a technology focus on Computer Engineering.
   
-
   During my studies, I have taken several relevant courses, including:
 
   - Politics of Innovation and Technology
@@ -30,8 +30,8 @@ Education
   - Introduction to Programming
 
 
-- **B.Sc. Industrial Engineering, Middle East Technical University: I specialized in systems design and developed my bachelor’s thesis on improving sales processes through an offline case decision support system design.**
-  
+- **B.Sc. Industrial Engineering, Middle East Technical University**
+  I specialized in systems design and developed my bachelor’s thesis on improving sales processes through an offline case decision support system design.
 
   During my studies, I have taken several relevant courses, including:
 
