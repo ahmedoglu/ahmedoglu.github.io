@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-** M.Sc. Management and Technology, Technical University of Munich: My major is Economics, Policy, and Innovation, with a technology focus on Computer Engineering.**
+- **M.Sc. Management and Technology, Technical University of Munich: My major is Economics, Policy, and Innovation, with a technology focus on Computer Engineering.**
   
 
   During my studies, I have taken several relevant courses, including:
@@ -30,7 +30,7 @@ Education
   - Introduction to Programming
 
 
-** B.Sc. Industrial Engineering, Middle East Technical University: I specialized in systems design and developed my bachelor’s thesis on improving sales processes through an offline case decision support system design.**
+- **B.Sc. Industrial Engineering, Middle East Technical University: I specialized in systems design and developed my bachelor’s thesis on improving sales processes through an offline case decision support system design.**
   
 
   During my studies, I have taken several relevant courses, including:
@@ -55,22 +55,22 @@ Education
 
 Work experience
 ======
-** STM - Ankara: Associate Project Manager (Project Engineer)**
+- **STM - Ankara: Associate Project Manager (Project Engineer)**
   - As a Project Engineer, I managed technical projects related to tactical mini UAV systems and R&D projects for defense and military use, including KARGU, BOYGA, ALPAGU, and TOGAN.
  
 
 
-** Siemens Advanta Solutions - Munich: Strategy, Digitalization & Sustainability Working Student**
+-v**Siemens Advanta Solutions - Munich: Strategy, Digitalization & Sustainability Working Student**
   - I worked as a Strategy, Digitalization, and Sustainability Working Student, collaborating on sustainability-driven strategic initiatives and supporting regional projects.
 
 
 
-** TUM School of Management - Munich: IT Management & Enterprise Processes Working Student**
+- **TUM School of Management - Munich: IT Management & Enterprise Processes Working Student**
   - As an IT Management and Enterprise Processes Working Student, I was involved in IT process design and integration, process optimization, and agile project management.
     
 
 
-** Allianz SE - Munich: Group IT Strategy & Management Working Student**
+- **Allianz SE - Munich: Group IT Strategy & Management Working Student**
   - I served as a Group IT Strategy and Management Working Student, managing the Enterprise Architecture Repository and leading CIO communications and IT transformation initiatives.
     
   
