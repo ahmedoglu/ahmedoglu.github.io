@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Mümin Ahmedoğlu, studying for my Master's in **Management and Technology** at the Technical University of Munich (TUM). My academic interest lies at the junction of **Strategy, Policy, Management, and Innovation**, with a technological specialization in **Computer Engineering**. On that note, my studies have equipped me with a robust understanding of the **politics of innovation**, current issues related to **technology management**, and **public policy**.
+I am Mümin Ahmedoğlu, studying for my Master's in **Management and Technology** at the Technical University of Munich (TUM). My academic interest lies at the junction of **Economics, Policy, and Innovation**, with a technological specialization in **Computer Engineering**. On that note, my studies have equipped me with a robust understanding of the ** economics and politics of defense innovation**, current issues related to **technology management**, and **public policy**.
 
 My key areas of research interest lie at the intersection of **defense innovation**, **arms control**, **disarmament**, and how they relate more broadly to **global security and technology policy**. In particular, I focus on how changes in technologies influence the dynamics of **international security and policy development**. Finally, I am also interested in the **economic and political factors** that drive **innovation** in the **defense sector**, the role of the industrial base and technological infrastructure in fostering innovation, and how innovation links back into defense exports.
 
