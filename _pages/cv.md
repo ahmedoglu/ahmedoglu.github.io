@@ -17,32 +17,32 @@ Education
   
   During my studies, I have taken several relevant courses, including:
 
-### Innovation, Technology, and Strategy:
-
-- Innovation and Technology Management in Practice
-- Value-based Business Strategy & Innovation
-- Applied Strategy and Organization
-- Innovation in the Periphery? Industrial Legacies, Economic Transitions, and the Politics of "Lost Places"
-- Economics of Innovation
-- Politics of Innovation and Technology
-- Innovation, Society, and Public Policy
-
-### Governance, Policy, and Regulation:
-
-- Technology Governance and the Regulatory State
-- Introduction to Science and Technology Policy
-
-### Data, Research, and Quantitative Methods:
-
-- Empirical Research in Management and Economics
-- Quantitative Research Proposals: Developing an Empirical Research Project
-- Applied Statistics and Econometrics
-- Risk Theory and Modeling
-
-### Programming and Visualization:
-
-- Data Analysis and Visualization in R
-- Introduction to Programming
+    ### Innovation, Technology, and Strategy:
+    
+    - Innovation and Technology Management in Practice
+    - Value-based Business Strategy & Innovation
+    - Applied Strategy and Organization
+    - Innovation in the Periphery? Industrial Legacies, Economic Transitions, and the Politics of "Lost Places"
+    - Economics of Innovation
+    - Politics of Innovation and Technology
+    - Innovation, Society, and Public Policy
+    
+    ### Governance, Policy, and Regulation:
+    
+    - Technology Governance and the Regulatory State
+    - Introduction to Science and Technology Policy
+    
+    ### Data, Research, and Quantitative Methods:
+    
+    - Empirical Research in Management and Economics
+    - Quantitative Research Proposals: Developing an Empirical Research Project
+    - Applied Statistics and Econometrics
+    - Risk Theory and Modeling
+    
+    ### Programming and Visualization:
+    
+    - Data Analysis and Visualization in R
+    - Introduction to Programming
 
 
 - **B.Sc. Industrial Engineering, Middle East Technical University**
