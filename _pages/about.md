@@ -53,30 +53,30 @@ During my studies, I have taken several relevant courses, including:
 
 ### Innovation, Technology, and Strategy:
 
-1. Innovation and Technology Management in Practice
-2. Value-based Business Strategy & Innovation
-3. Applied Strategy and Organization
-4. Innovation in the Periphery? Industrial Legacies, Economic Transitions, and the Politics of "Lost Places"
-5. Economics of Innovation
-6. Politics of Innovation and Technology
-7. Innovation, Society, and Public Policy
+- Innovation and Technology Management in Practice
+- Value-based Business Strategy & Innovation
+- Applied Strategy and Organization
+- Innovation in the Periphery? Industrial Legacies, Economic Transitions, and the Politics of "Lost Places"
+- Economics of Innovation
+- Politics of Innovation and Technology
+- Innovation, Society, and Public Policy
 
 ### Governance, Policy, and Regulation:
 
-1. Technology Governance and the Regulatory State
-2. Introduction to Science and Technology Policy
+- Technology Governance and the Regulatory State
+- Introduction to Science and Technology Policy
 
 ### Data, Research, and Quantitative Methods:
 
-1. Empirical Research in Management and Economics
-2. Quantitative Research Proposals: Developing an Empirical Research Project
-3. Applied Statistics and Econometrics
-4. Risk Theory and Modeling
+- Empirical Research in Management and Economics
+- Quantitative Research Proposals: Developing an Empirical Research Project
+- Applied Statistics and Econometrics
+- Risk Theory and Modeling
 
 ### Programming and Visualization:
 
-1. Data Analysis and Visualization in R
-2. Introduction to Programming
+- Data Analysis and Visualization in R
+- Introduction to Programming
 
 
 **B.Sc. Industrial Engineering, Middle East Technical University**: I specialized in systems design and developed my bachelor's thesis on improving sales processes through an offline case decision support system design.
