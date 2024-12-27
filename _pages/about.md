@@ -104,7 +104,9 @@ Professional Experience
 ------
 **STM - Ankara**: As a Project Engineer, I managed technical projects related to tactical mini UAV systems and R&D projects for defense and military use, including KARGU, BOYGA, ALPAGU, and TOGAN.
 
-**Siemens Advanta Solutions - Munich**: Currently, I worked as a Strategy, Digitalization, and Sustainability Working Student, collaborating on sustainability-driven strategic initiatives and supporting regional projects.
+**TUM Venture Labs - Munich**: As a Technology Infrastructure Graduate Working Student, I align technology infrastructure in Munich with startups' needs, automate and optimize the startup journey with TUM Venture Labs, and facilitate connections between startups and resources.
+
+**Siemens Advanta Solutions - Munich**: I worked as a Strategy, Digitalization, and Sustainability Working Student, collaborating on sustainability-driven strategic initiatives and supporting regional projects.
 
 **TUM School of Management - Munich**: As an IT Management and Enterprise Processes Working Student, I was involved in IT process design and integration, process optimization, and agile project management.
 
