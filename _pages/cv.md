@@ -72,24 +72,24 @@ Education
 Work experience
 ======
 - **STM - Ankara: Associate Project Manager (Project Engineer)**
-  - As a Project Engineer, I managed technical projects related to tactical mini UAV systems and R&D projects for defense and military use, including KARGU, BOYGA, ALPAGU, and TOGAN.
+  - I managed technical projects related to tactical mini UAV systems and R&D projects for defense and military use, including KARGU, BOYGA, ALPAGU, and TOGAN.
 
  - **TUM Venture Labs - Munich: Technology Infrastructure Graduate Working Student**
-    - As a Technology Infrastructure Graduate Working Student, I align technology infrastructure in Munich with startups' needs, automate and optimize the startup journey with TUM Venture Labs, and facilitate connections between startups and resources.
+    - I align technology infrastructure in Munich with startups' needs, automate and optimize the startup journey with TUM Venture Labs, and facilitate connections between startups and resources.
 
 
 - **Siemens Advanta Solutions - Munich: Strategy, Digitalization & Sustainability Working Student**
-  - I worked as a Strategy, Digitalization, and Sustainability Working Student, collaborating on sustainability-driven strategic initiatives and supporting regional projects.
+  - I collaborated on sustainability-driven strategic initiatives and supporting regional digitalization projects.
 
 
 
 - **TUM School of Management - Munich: IT Management & Enterprise Processes Working Student**
-  - As an IT Management and Enterprise Processes Working Student, I was involved in IT process design and integration, process optimization, and agile project management.
+  - I was involved in IT process design and integration, process optimization, and agile project management.
     
 
 
 - **Allianz SE - Munich: Group IT Strategy & Management Working Student**
-  - I served as a Group IT Strategy and Management Working Student, managing the Enterprise Architecture Repository and leading CIO communications and IT transformation initiatives.
+  - I managed the Enterprise Architecture Repository and leading CIO communications and IT transformation initiatives.
     
   
 Skills
