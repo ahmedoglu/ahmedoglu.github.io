@@ -74,7 +74,8 @@ Work experience
 - **STM - Ankara: Associate Project Manager (Project Engineer)**
   - As a Project Engineer, I managed technical projects related to tactical mini UAV systems and R&D projects for defense and military use, including KARGU, BOYGA, ALPAGU, and TOGAN.
 
- - **TUM Venture Labs - Munich**: As a Technology Infrastructure Graduate Working Student, I align technology infrastructure in Munich with startups' needs, automate and optimize the startup journey with TUM Venture Labs, and facilitate connections between startups and resources.
+ - **TUM Venture Labs - Munich: Technology Infrastructure Graduate Working Student**
+  - As a Technology Infrastructure Graduate Working Student, I align technology infrastructure in Munich with startups' needs, automate and optimize the startup journey with TUM Venture Labs, and facilitate connections between startups and resources.
 
 
 - **Siemens Advanta Solutions - Munich: Strategy, Digitalization & Sustainability Working Student**
