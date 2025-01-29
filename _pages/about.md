@@ -56,7 +56,7 @@ During my studies, I have taken several relevant courses, including:
 - Innovation and Technology Management in Practice
 - Value-based Business Strategy & Innovation
 - Applied Strategy and Organization
-- Innovation in the Periphery? Industrial Legacies, Economic Transitions, and the Politics of "Lost Places"
+- Economic and Political Spaces of Innovation
 - Economics of Innovation
 - Politics of Innovation and Technology
 - Innovation, Society, and Public Policy
