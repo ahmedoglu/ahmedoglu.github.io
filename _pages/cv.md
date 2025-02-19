@@ -15,6 +15,21 @@ Education
 
   My major is Economics, Policy, and Innovation, with a technology focus on Computer Engineering.
   
+  Thesis Topic: " _Defense Collaborations, Industrial Base, and Military Expenditure: A Network and Econometric Analysis of Economic Growth in the EU_"
+
+- Research Paper - Politics of Innovation & Technology: “_Determinants of Defense Technology Innovation: A Comparative Analysis of Economic, Geopolitical, and Policy Factors Across Leading and Emerging Nations_”
+
+- Research Paper - Economics of Innovation: "_Military Innovation vs. Operations: How Arms Trade, Technological Capacity, and Economic Strength Shape PESCO Participation_"
+
+- Research Paper - Innovation, Society, and Public Policy: "_Balancing Act: Innovation, Society, and Defense Policy – A Comparative Analysis of Turkey and Germany_" 
+
+- Research Paper - Technology Governance and the Regulatory State: "_Regulatory Challenges of Eurodrone under PESCO and Strategic Autonomy_" 
+
+- Research Paper - Economic and Political Spaces of Innovation: "_Defense Innovation in Eastern Europe: Exploring Socio-Technical Imaginaries and Strategic Autonomy_"
+
+- Research Paper - Current Issues in Technology Management: “_Unlocking Dual-Use Potential: The Case for Military Drone Adaptation in Civilian Sectors_”
+
+
   During my studies, I have taken several relevant courses, including:
 
     Innovation, Technology, and Strategy:
