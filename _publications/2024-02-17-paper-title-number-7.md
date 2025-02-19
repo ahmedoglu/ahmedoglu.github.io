@@ -2,7 +2,7 @@
 title: "Regulatory Challenges of Eurodrone under PESCO and Strategic Autonomy"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-7
-excerpt: 'innovation economics, defense, arms trade, military, economic growth'
+excerpt: 'technology regulations, defense, arms trade, military, PESCO, europe'
 date: 2025-03-25
 venue: 'To be published'
 slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
