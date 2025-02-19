@@ -49,19 +49,19 @@ Academic Background
 ======
 **M.Sc. Management and Technology, Technical University of Munich**: My major is Economics, Policy, and Innovation, with a technology focus on Computer Engineering. 
 
-Thesis Topic: " Defense Collaborations, Industrial Base, and Military Expenditure: A Network and Econometric Analysis of Economic Growth in the EU"
+Thesis Topic: " _Defense Collaborations, Industrial Base, and Military Expenditure: A Network and Econometric Analysis of Economic Growth in the EU_"
 
-- Research Paper - Politics of Innovation & Technology: “Determinants of Defense Technology Innovation: A Comparative Analysis of Economic, Geopolitical, and Policy Factors Across Leading and Emerging Nations”
+- Research Paper - Politics of Innovation & Technology: “_Determinants of Defense Technology Innovation: A Comparative Analysis of Economic, Geopolitical, and Policy Factors Across Leading and Emerging Nations_”
 
-- Research Paper - Economics of Innovation: "Military Innovation vs. Operations: How Arms Trade, Technological Capacity, and Economic Strength Shape PESCO Participation"
+- Research Paper - Economics of Innovation: "_Military Innovation vs. Operations: How Arms Trade, Technological Capacity, and Economic Strength Shape PESCO Participation_"
 
-- Research Paper - Innovation, Society, and Public Policy: "Balancing Act: Innovation, Society, and Defense Policy – A Comparative Analysis of Turkey and Germany" 
+- Research Paper - Innovation, Society, and Public Policy: "_Balancing Act: Innovation, Society, and Defense Policy – A Comparative Analysis of Turkey and Germany_" 
 
-- Research Paper - Technology Governance and the Regulatory State: "Regulatory Challenges of Eurodrone under PESCO and Strategic Autonomy" 
+- Research Paper - Technology Governance and the Regulatory State: "_Regulatory Challenges of Eurodrone under PESCO and Strategic Autonomy_" 
 
-- Research Paper - Economic and Political Spaces of Innovation: "Defense Innovation in Eastern Europe: Exploring Socio-Technical Imaginaries and Strategic Autonomy"
+- Research Paper - Economic and Political Spaces of Innovation: "_Defense Innovation in Eastern Europe: Exploring Socio-Technical Imaginaries and Strategic Autonomy_"
 
-- Research Paper - Current Issues in Technology Management: “Unlocking Dual-Use Potential: The Case for Military Drone Adaptation in Civilian Sectors”
+- Research Paper - Current Issues in Technology Management: “_Unlocking Dual-Use Potential: The Case for Military Drone Adaptation in Civilian Sectors_”
 
 
 During my studies, I have taken several relevant courses, including:
