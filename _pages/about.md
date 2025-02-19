@@ -49,6 +49,21 @@ Academic Background
 ======
 **M.Sc. Management and Technology, Technical University of Munich**: My major is Economics, Policy, and Innovation, with a technology focus on Computer Engineering. 
 
+Thesis Topic: " Defense Collaborations, Industrial Base, and Military Expenditure: A Network and Econometric Analysis of Economic Growth in the EU"
+
+- Research Paper - Politics of Innovation & Technology: “Determinants of Defense Technology Innovation: A Comparative Analysis of Economic, Geopolitical, and Policy Factors Across Leading and Emerging Nations”
+
+- Research Paper - Economics of Innovation: "Military Innovation vs. Operations: How Arms Trade, Technological Capacity, and Economic Strength Shape PESCO Participation"
+
+- Research Paper - Innovation, Society, and Public Policy: "Balancing Act: Innovation, Society, and Defense Policy – A Comparative Analysis of Turkey and Germany" 
+
+- Research Paper - Technology Governance and the Regulatory State: "Regulatory Challenges of Eurodrone under PESCO and Strategic Autonomy" 
+
+- Research Paper - Economic and Political Spaces of Innovation: "Defense Innovation in Eastern Europe: Exploring Socio-Technical Imaginaries and Strategic Autonomy"
+
+- Research Paper - Current Issues in Technology Management: “Unlocking Dual-Use Potential: The Case for Military Drone Adaptation in Civilian Sectors”
+
+
 During my studies, I have taken several relevant courses, including:
 
 ### Innovation, Technology, and Strategy:
