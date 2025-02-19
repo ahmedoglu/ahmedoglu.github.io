@@ -1,7 +1,7 @@
 ---
 title: "Defense Collaborations, Industrial Base, and Military Expenditure: A Network and Econometric Analysis of Economic Growth in the EU"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-5.md
+permalink: '/publication/2009-10-01-paper-title-number-5.md'
 excerpt: 'defence technology innovation, economics of defence'
 date: 2025-02-14
 venue: 'To be published'
