@@ -25,7 +25,7 @@ Education
 
 - Research Paper - Technology Governance and the Regulatory State: "_Regulatory Challenges of Eurodrone under PESCO and Strategic Autonomy_" 
 
-- Research Paper - Economic and Political Spaces of Innovation: "_Defense Innovation in Eastern Europe: Exploring Socio-Technical Imaginaries and Strategic Autonomy_"
+- Research Paper - Economic and Political Spaces of Innovation: "_Defense Innovation and Strategic Autonomy in Czechia: Socio-Technical Imaginaries and Security Narratives_"
 
 - Research Paper - Current Issues in Technology Management: “_Unlocking Dual-Use Potential: The Case for Military Drone Adaptation in Civilian Sectors_”
 
