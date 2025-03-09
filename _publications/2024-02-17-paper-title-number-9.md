@@ -2,7 +2,7 @@
 title: "Comparative National Strategies in Military Trainer Jet Development: The Czech Aero L-39NG and Turkish TAI Hürjet in the Global Defense Economy"
 collection: publications
 permalink: /publication/2024-02-17-paper-title-number-9
-excerpt: 'defence economics, Turkey, Jets, NATO, europe'
+excerpt: 'defence economics, Turkey, Czechia, Jets, NATO, europe'
 date: 2025-06-02
 venue: 'To be published'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
