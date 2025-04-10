@@ -123,31 +123,31 @@ During my studies, I have taken several relevant courses, including:
 Professional Experience
 ------
 
-**Ludwig-Maximilians-Universität – Munich**  Graduate Research Assistant, SYNCPOL (ERC Advanced Grant)  
+**Ludwig-Maximilians-Universität – Munich**:  Graduate Research Assistant, SYNCPOL (ERC Advanced Grant)  
 
 Quantitatively modeling how time-related political language (urgency, duration, foresight) structures multi-level policy coordination in EU migration and public health domains. Conducting semantic scaling of political speeches across EU institutions using Python, fine-tuned Sentence-BERT, dynamic embeddings, and PCA-based ideological positioning.
 
-**Siemens – Munich**  P&O Transformation Strategy Working Student  
+**Siemens – Munich**:  P&O Transformation Strategy Working Student  
 
 Contributing to strategic people and organization transformation projects by developing data-driven concepts aligned with Siemens' People Strategy for Germany. Supporting data strategy implementation through the analysis of people-related datasets, dashboard creation, and promotion of data-informed solutions for the future of work.
 
-**STM – Ankara**  Project Engineer  
+**STM – Ankara**:  Project Engineer  
 
 Managed technical and R&D projects related to tactical mini UAV systems for defense use, including KARGU, BOYGA, ALPAGU, and TOGAN.
 
-**TUM Venture Labs – Munich**  Technology Infrastructure Graduate Working Student  
+**TUM Venture Labs – Munich**:  Technology Infrastructure Graduate Working Student  
 
 Aligned technology infrastructure with startup needs, automated the startup journey, and facilitated resource connections within TUM Venture Labs.
 
-**Siemens Advanta Solutions – Munich**  Strategy, Digitalization, and Sustainability Working Student  
+**Siemens Advanta Solutions – Munich**:  Strategy, Digitalization, and Sustainability Working Student  
 
 Collaborated on sustainability-driven strategic initiatives and supported regional projects.
 
-**TUM School of Management – Munich**  IT Management and Enterprise Processes Working Student  
+**TUM School of Management – Munich**:  IT Management and Enterprise Processes Working Student  
 
 Involved in IT process design, optimization, and agile project management.
 
-**Allianz SE – Munich**  Group IT Strategy and Management Working Student  
+**Allianz SE – Munich**:  Group IT Strategy and Management Working Student  
 
 Managed the Enterprise Architecture Repository, led CIO communications, and supported IT transformation initiatives.
 
