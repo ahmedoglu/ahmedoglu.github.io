@@ -83,10 +83,12 @@ During my studies, I have taken several relevant courses, including:
 
 - Technology Governance and the Regulatory State
 - Introduction to Science and Technology Policy
+- Advanced Topics in Comparative and International Political Economy
 
 ### Data, Research, and Quantitative Methods:
 
 - Empirical Research in Management and Economics
+- Introduction to Bayesian Data Analysis
 - Quantitative Research Proposals: Developing an Empirical Research Project
 - Applied Statistics and Econometrics
 - Risk Theory and Modeling
