@@ -21,6 +21,8 @@ Current Research Projects
 ======
 - **Defense Innovation and Policy Dynamics**: In collaboration with [Dr. David Angenendt](https://www.ep.mgt.tum.de/en/eoi/team/researchers/dr-david-angenendt/) from TU Munich - School of Management - Chair of Economics of Innovation and [Dr. Alexander Wentland](https://www.sts.sot.tum.de/sts/personen/forschende/alexander-wentland/) from TU Munich - School of Social Sciences and Technology - Department of Science, Technology Society, I am currently developing an empirical model that investigates the dynamics of defense innovation at both country and company levels. This project aims to conceptualize, measure, and understand the economic, political, and technological drivers of innovation in the defense sector, with particular focus on how these factors interact to influence global security policies.
 
+- **Synchronized Politics**: Time, Power, and Policy Coordination in the European Union [(SYNCPOL)](https://www.gsi.uni-muenchen.de/lehreinheiten/ls_ps_eu_integration/forschungamlehrstuhl/erc-grant/index.html): As a Graduate Research Assistant at Ludwig-Maximilians-Universität Munich, I contribute to the ERC Advanced Grant project SYNCPOL: Synchronized Politics – Multiple Times and Political Power, led by [Prof. Klaus H. Goetz](https://www.gsi.uni-muenchen.de/personen/professoren/goetz/index.html). The project investigates how temporal structures—such as urgency, foresight, and sequencing—shape power dynamics and policy coordination across EU institutions. My role focuses on quantitatively modeling how time-related political language influences multi-level governance in the domains of migration and defense. This involves the semantic scaling of political speeches from the European Commission, Parliament, and Council using advanced NLP techniques, including fine-tuned Sentence-BERT models, dynamic embeddings, and PCA-based ideological mapping.
+
 - **From the Periphery to the Centre? Czech and Turkish Ambition in NATO’s Airspace Industry**: In collaboration with [Dr. Bohuslav Pernica](https://www.muni.cz/en/people/161932-bohuslav-pernica), this comparative study assesses the ambitions of Czechia and Turkey within NATO's airspace industry, particularly focusing on their respective military training jets—the L-39 NG and TAI Hürjet. The research explores how each country leverages its industrial base and government support to develop, produce, and export these advanced pilot training jets designed for the 4th–5th generation supersonic Multi Role Combat Aircraft (MRCA). The study includes a detailed analysis of the involvement and strategic support by both governments in these projects, providing insights into how smaller NATO members can influence and integrate into the broader alliance's defense capabilities.
 
 Research Interests
@@ -118,12 +120,32 @@ During my studies, I have taken several relevant courses, including:
 
 Professional Experience
 ------
-**STM - Ankara**: As a Project Engineer, I managed technical projects related to tactical mini UAV systems and R&D projects for defense and military use, including KARGU, BOYGA, ALPAGU, and TOGAN.
 
-**TUM Venture Labs - Munich**: As a Technology Infrastructure Graduate Working Student, I align technology infrastructure in Munich with startups' needs, automate and optimize the startup journey with TUM Venture Labs, and facilitate connections between startups and resources.
+**Ludwig-Maximilians-Universität – Munich**
+Graduate Research Assistant, SYNCPOL (ERC Advanced Grant) 
+Quantitatively modeling how time-related political language (urgency, duration, foresight) structures multi-level policy coordination in EU migration and public health domains. Conducting semantic scaling of political speeches across EU institutions using Python, fine-tuned Sentence-BERT, dynamic embeddings, and PCA-based ideological positioning.
 
-**Siemens Advanta Solutions - Munich**: I worked as a Strategy, Digitalization, and Sustainability Working Student, collaborating on sustainability-driven strategic initiatives and supporting regional projects.
+**Siemens – Munich**
+P&O Transformation Strategy Working Student
+Contributing to strategic people and organization transformation projects by developing data-driven concepts aligned with Siemens' People Strategy for Germany. Supporting data strategy implementation through the analysis of people-related datasets, dashboard creation, and promotion of data-informed solutions for the future of work.
 
-**TUM School of Management - Munich**: As an IT Management and Enterprise Processes Working Student, I was involved in IT process design and integration, process optimization, and agile project management.
+**STM – Ankara**
+Project Engineer
+Managed technical and R&D projects related to tactical mini UAV systems for defense use, including KARGU, BOYGA, ALPAGU, and TOGAN.
 
-**Allianz SE - Munich**: I served as a Group IT Strategy and Management Working Student, managing the Enterprise Architecture Repository and leading CIO communications and IT transformation initiatives.
+**TUM Venture Labs – Munich**
+Technology Infrastructure Graduate Working Student
+Aligned technology infrastructure with startup needs, automated the startup journey, and facilitated resource connections within TUM Venture Labs.
+
+**Siemens Advanta Solutions – Munich**
+Strategy, Digitalization, and Sustainability Working Student
+Collaborated on sustainability-driven strategic initiatives and supported regional projects.
+
+**TUM School of Management – Munich**
+IT Management and Enterprise Processes Working Student
+Involved in IT process design, optimization, and agile project management.
+
+**Allianz SE – Munich**
+Group IT Strategy and Management Working Student
+Managed the Enterprise Architecture Repository, led CIO communications, and supported IT transformation initiatives.
+
