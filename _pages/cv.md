@@ -48,11 +48,13 @@ Research Papers:
     
     - Technology Governance and the Regulatory State
     - Introduction to Science and Technology Policy
+    - Advanced Topics in Comparative and International Political Economy
     
     Data, Research, and Quantitative Methods:
     
     - Empirical Research in Management and Economics
     - Quantitative Research Proposals: Developing an Empirical Research Project
+    - Introduction to Bayesian Data Analysis
     - Applied Statistics and Econometrics
     - Risk Theory and Modeling
     
@@ -88,6 +90,13 @@ Research Papers:
 
 Work experience
 ======
+
+- **Ludwig-Maximilians-Universität - Munich: Graduate Research Assistant (SYNCPOL Project)**
+  - I work on the ERC-funded project SYNCPOL: Synchronized Politics, where I model how time-related political language—such as urgency, duration, and foresight—shapes EU policy coordination and power dynamics in migration and defense. My tasks include semantic scaling of political speeches across EU institutions using Python, Sentence-BERT, dynamic embeddings, and PCA-based ideological positioning.
+ 
+- **Siemens - Munich: P&O Transformation Strategy Working Student**
+  - I contribute to strategic people and organization transformation projects by developing data-driven concepts aligned with Siemens' People Strategy for Germany. I support data strategy implementation by analyzing people-related datasets, creating dashboards and reports, and promoting data-informed solutions for the future of work.
+
 - **STM - Ankara: Associate Project Manager (Project Engineer)**
   - I managed technical projects related to tactical mini UAV systems and R&D projects for defense and military use, including KARGU, BOYGA, ALPAGU, and TOGAN.
 
