@@ -25,6 +25,14 @@ Current Research Projects
 
 - **From the Periphery to the Centre? Czech and Turkish Ambition in NATO’s Airspace Industry**: In collaboration with [Dr. Bohuslav Pernica](https://www.muni.cz/en/people/161932-bohuslav-pernica), this comparative study assesses the ambitions of Czechia and Turkey within NATO's airspace industry, particularly focusing on their respective military training jets—the L-39 NG and TAI Hürjet. The research explores how each country leverages its industrial base and government support to develop, produce, and export these advanced pilot training jets designed for the 4th–5th generation supersonic Multi Role Combat Aircraft (MRCA). The study includes a detailed analysis of the involvement and strategic support by both governments in these projects, providing insights into how smaller NATO members can influence and integrate into the broader alliance's defense capabilities.
 
+
+
+Completed Research Projects
+======
+
+- **EU Defense Discourse and Institutional Dynamics**: For my Master’s thesis at the Technical University of Munich (School of Management, Chair of Economics of Innovation, supervised by [Dr. David Angenendt](https://www.ep.mgt.tum.de/en/eoi/team/researchers/dr-david-angenendt/)), I conducted the first comprehensive quantitative study of European Union institutional discourse on defense cooperation and strategic autonomy from 2000 to 2024. Employing a multi-method approach that combined computational text analysis, panel data econometrics, and time-series methods, the project analyzed 6.41 million sentences from European Commission and European Parliament communications. Transformer-based models classified defense-related content with 98.4% accuracy, allowing the identification of four distinct discourse dimensions: defense emphasis, joint capability promotion, sovereignty-oriented framing, and threat justification.
+
+
 Research Interests
 ======
 My research interests encompass a broad range of topics within the fields of innovation in defense, arms control, and disarmament, including:
