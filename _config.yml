@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+n# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Mümin Ahmedoğlu"
 title_separator          : "-"
 name                     : &name "Mümin Ahmedoğlu"
-description              : &description "Researcher | Defense Technology & Innovation Management & Policy | B.Sc. Industrial Engineering | M.Sc. Management & Technology | Turkey | Germany"
+description              : &description "Researcher | Defense Economics & Management | B.Sc. Industrial Engineering | M.Sc. Management & Technology | Turkey | Germany"
 url                      : https://ahmedoglu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://ahmedoglu.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "Photo_MA.JPG"
   name             : "Mümin Ahmedoğlu"
   pronouns         : # example: "she/her"  
-  bio              : "Mümin Ahmedoğlu is a master's student at the Technical University of Munich (TUM), specializing in Management and Technology. His research is at the intersection of defense innovation, arms control, and disarmament, with a strong commitment to advancing global security. Mümin is passionate about contributing to the field through cutting-edge research and fostering international collaboration, aiming to address the complex challenges in defense and security policy."
+  bio              : "Mümin Ahmedoğlu holds a Master’s degree in Management and Technology from the Technical University of Munich (TUM), with a specialization in innovation economics. His research examines the economic dimensions of defense innovation, arms control, and security policy, with particular emphasis on how political, institutional, and technological factors shape defense-related decision-making. By combining quantitative methods with policy analysis, his work contributes to a deeper understanding of the economic foundations of defense and their implications for global security and international cooperation."
   location         : "Munich - Germany"
   employer         : "Technical University of Munich"
   uri              : # URL
