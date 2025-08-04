@@ -15,7 +15,7 @@ Education
 
   My major is Economics, Policy, and Innovation, with a technology focus on Computer Engineering.
   
-  Thesis Topic: " _Defense Collaborations, Industrial Base, and Military Expenditure: A Network and Econometric Analysis of Economic Growth in the EU_"
+  Thesis Topic: " _EU Defense Discourse and Institutional Dynamics: A Computational Analysis of European Commission and European Parliament Rhetoric and Their Drivers (2000–2024)_"
 
 Research Papers:
 - Politics of Innovation & Technology: “_Determinants of Defense Technology Innovation: A Comparative Analysis of Economic, Geopolitical, and Policy Factors Across Leading and Emerging Nations_”
