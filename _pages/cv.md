@@ -11,6 +11,34 @@ redirect_from:
 
 Education
 ======
+- **Ph.D. in Business Decisions and Analytics, University of Vienna (ongoing)**
+
+  My doctoral research focuses on the coordination and efficiency of defense procurement in the European Union, analyzing how industrial asymmetries, sovereignty constraints, and institutional mechanisms—such as the European Defence Fund (EDF) and PESCO—influence cooperation, innovation, and policy outcomes.
+
+  Dissertation Topic: "Coordination Problems in EU Defense Procurement: A Common Agency Analysis"
+
+  During my doctoral studies, I am taking several courses, including:
+
+    - Contract Theory
+    
+    - Game Theory
+    
+    - Decision Sciences
+    
+    - Econometrics for Policy Analysis
+    
+    - Industrial Organization
+    
+    - Decision-Making under Risk and Uncertainty
+    
+    - Incentives and Strategic Behavior
+    
+    - Philosophy and Economics
+    
+    - Advanced Topics in Logistics and Supply Chain Management
+
+
+
 - **M.Sc. Management and Technology, Technical University of Munich**
 
   My major is Economics, Policy, and Innovation, with a technology focus on Computer Engineering.
