@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Researcher in Defense Innovation, Economics of Defense, & Defense Policy"
+title: "Researcher in Researcher in Economics of Defense Procurement"
 author_profile: true
 redirect_from: 
   - /about/
