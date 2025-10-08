@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Mümin Ahmedoğlu"
 title_separator          : "-"
 name                     : &name "Mümin Ahmedoğlu"
-description              : &description "Researcher | Defense Economics & Management | B.Sc. Industrial Engineering | M.Sc. Management & Technology | Turkey | Germany"
+description              : &description "Doctoral Researcher | Economics of Defense Procurement | Ph.D. Business Decisions & Analytics, University of Vienna (ongoing) | M.Sc. Management & Technology, TU Munich | B.Sc. Industrial Engineering, METU | Turkey | Austria | EU Defense & Innovation Policy"
 url                      : https://ahmedoglu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://ahmedoglu.github.io"
@@ -24,11 +24,11 @@ author:
   avatar           : "Photo_MA.JPG"
   name             : "Mümin Ahmedoğlu"
   pronouns         : # example: "she/her"  
-  bio              : "Mümin Ahmedoğlu holds a Master’s degree in Management and Technology from the Technical University of Munich (TUM), with a specialization in innovation economics. His research examines the economic dimensions of defense innovation, arms control, and security policy, with particular emphasis on how political, institutional, and technological factors shape defense-related decision-making. By combining quantitative methods with policy analysis, his work contributes to a deeper understanding of the economic foundations of defense and their implications for global security and international cooperation."
-  location         : "Munich - Germany"
-  employer         : "Technical University of Munich"
+  bio              : "Mümin Ahmedoğlu is a Doctoral Researcher at the University of Vienna’s Department of Business Decisions and Analytics and holds a Master’s degree in Management and Technology from the Technical University of Munich (TUM), specializing in innovation economics. His research explores the economics of defense procurement and innovation in the European Union, focusing on how industrial asymmetries, sovereignty constraints, and institutional mechanisms—such as the European Defence Fund (EDF) and PESCO—affect coordination, efficiency, and strategic outcomes in joint defense projects. By combining contract theory, quantitative analysis, and policy research, his work advances understanding of the economic and institutional foundations of European defense and their implications for strategic autonomy, innovation policy, and international security cooperation."
+  location         : "Vienna - Austria"
+  employer         : "University of Vienna"
   uri              : # URL
-  email            : "mumin.ahmedoglu@tum.de" 
+  email            : "mumin.ahmedoglu@univie.ac.at" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
