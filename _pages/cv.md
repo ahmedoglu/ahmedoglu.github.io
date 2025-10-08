@@ -45,18 +45,18 @@ Education
   
   Thesis Topic: " _EU Defense Discourse and Institutional Dynamics: A Computational Analysis of European Commission and European Parliament Rhetoric and Their Drivers (2000–2024)_"
 
-Research Papers:
-- Politics of Innovation & Technology: “_Determinants of Defense Technology Innovation: A Comparative Analysis of Economic, Geopolitical, and Policy Factors Across Leading and Emerging Nations_”
-
-- Economics of Innovation: "_Military Innovation vs. Operations: How Arms Trade, Technological Capacity, and Economic Strength Shape PESCO Participation_"
-
-- Innovation, Society, and Public Policy: "_Balancing Act: Innovation, Society, and Defense Policy – A Comparative Analysis of Turkey and Germany_" 
-
-- Technology Governance and the Regulatory State: "_Regulatory Challenges of Eurodrone Under PESCO and EU Strategic Autonomy: A Techno-Securitization Perspective_" 
-
-- Economic and Political Spaces of Innovation: "_Defense Innovation and Strategic Autonomy in Czechia: Socio-Technical Imaginaries and Security Narratives_"
-
-- Current Issues in Technology Management: “_Unlocking Dual-Use Potential: The Case for Military Drone Adaptation in Civilian Sectors_”
+  Research Papers:
+  - Politics of Innovation & Technology: “_Determinants of Defense Technology Innovation: A Comparative Analysis of Economic, Geopolitical, and Policy Factors Across Leading and Emerging Nations_”
+  
+  - Economics of Innovation: "_Military Innovation vs. Operations: How Arms Trade, Technological Capacity, and Economic Strength Shape PESCO Participation_"
+  
+  - Innovation, Society, and Public Policy: "_Balancing Act: Innovation, Society, and Defense Policy – A Comparative Analysis of Turkey and Germany_" 
+  
+  - Technology Governance and the Regulatory State: "_Regulatory Challenges of Eurodrone Under PESCO and EU Strategic Autonomy: A Techno-Securitization Perspective_" 
+  
+  - Economic and Political Spaces of Innovation: "_Defense Innovation and Strategic Autonomy in Czechia: Socio-Technical Imaginaries and Security Narratives_"
+  
+  - Current Issues in Technology Management: “_Unlocking Dual-Use Potential: The Case for Military Drone Adaptation in Civilian Sectors_”
 
 
 
@@ -148,18 +148,43 @@ Work experience
   
 Skills
 ======
-* Econometrics
-* Mathematical Modelling
-  * Linear Models
-  * Non-linear Models
-  * Network Modelling
-  * Simulation
-* Programming (Python, Java)
-* Data Analysis
-* Project Management
-* GAMS
-* Minitab
-* R Studio
+* Econometrics & Quantitative Analysis
+
+  * Panel Data Analysis, Causal Inference, Forecasting, Regression Modeling
+  
+  * Econometrics for Policy and Defense Procurement Studies
+
+* Theoretical & Mathematical Modeling
+
+  * Contract Theory, Game Theory, Optimization, Decision Analysis
+  
+  * Linear and Non-linear Models, Network Modeling, Simulation
+
+* Programming & Data Science
+
+  * Python (NumPy, pandas, matplotlib, scikit-learn)
+  
+  * R (Econometrics, Data Visualization, Statistical Analysis)
+  
+  * Java (Object-Oriented Programming)
+  
+  * NLP & Text-as-Data (Sentence-BERT, Topic Modeling, PCA-based Semantic Scaling)
+
+* Research & Analytical Tools
+
+  * GAMS, RStudio, Stata, Minitab, Tableau
+  
+  * Data Visualization, Statistical Computing, and Reproducible Research
+
+* Project & Academic Management
+
+  * Research Design, Project Coordination, and Policy Analysis
+  
+  * Cross-functional Collaboration and Academic Communication
+
+* Languages
+
+  * Turkish (Native), English (Fluent), Arabic (Fluent), German (Intermediate)
 
 Publications
 ======
