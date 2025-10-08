@@ -7,19 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-I am Mümin Ahmedoğlu, a graduate of the Master’s program in **Management and Technology** at the Technical University of Munich (TUM). My academic interest lies at the junction of **Economics, Policy, and Innovation**, with a technological specialization in **Computer Engineering**. On that note, my studies have equipped me with a robust understanding of the **economics and politics of defense innovation**, current issues related to **technology management**, and **public policy**.
+I am Mümin Ahmedoğlu, a doctoral researcher at the University of Vienna’s Department of Business Decisions and Analytics and a graduate of the Master’s program in Management and Technology at the Technical University of Munich (TUM). My academic work lies at the intersection of defense procurement, institutional economics, and innovation policy, combining formal modeling with empirical analysis to study how European institutions coordinate complex, multi-country defense projects.
 
-My key areas of research interest lie at the intersection of **defense innovation**, **arms control**, **disarmament**, and how they relate more broadly to **global security and technology policy**. In particular, I focus on how changes in technologies influence the dynamics of **international security and policy development**. Finally, I am also interested in the **economic and political factors** that drive **innovation** in the **defense sector**, the role of the industrial base and technological infrastructure in fostering innovation, and how innovation links back into defense exports.
+My current research focuses on the coordination and efficiency of defense procurement in the European Union, examining how industrial asymmetries, sovereignty constraints, and institutional mechanisms—such as the European Defence Fund (EDF) and PESCO—influence cooperation, innovation, and policy outcomes. More broadly, I am interested in the political economy of defense innovation, the industrial foundations of strategic autonomy, and the design of efficient policy mechanisms in security and technology domains.
 
-My current research projects include an **empirical comparative study** of the **defense policies** of Turkey and Germany, **re-purposing** **military UAVs for civilian uses**, and the global dynamics of defense spending. These projects use advanced regression models and impulse response functions applied to multi-country data to further advance the present understanding of defense innovation's economic, political, and technological drivers.
+Beyond my doctoral work, I have studied comparative defense policy, the civilian adaptation of military technologies (UAVs), and the global dynamics of defense spending and innovation. My approach integrates contract theory, econometric modeling, and data-driven analysis to bridge theoretical insights with policy relevance.
 
-I mastered **Arabic**, **English**, and **Turkish**, and I am currently learning **German**, which helps me to enhance my ability to **collaborate** internationally. My goal is to be able soon to contribute to defense and security with cutting-edge research and, therefore, share it with the broader academic and policy-making communities.
-
-Feel free to explore my work and reach out for possible collaborations or discussions on topics related to defense innovation and technology management.
+I am fluent in Arabic, English, and Turkish, and currently advancing my German, which supports my engagement in international and interdisciplinary research environments. My goal is to contribute to a more coherent understanding of how analytical and economic perspectives can improve defense cooperation and policy design in Europe.
 
 Current Research Projects
 ======
-- **Defense Innovation and Policy Dynamics**: In collaboration with [Dr. David Angenendt](https://www.ep.mgt.tum.de/en/eoi/team/researchers/dr-david-angenendt/) from TU Munich - School of Management - Chair of Economics of Innovation and [Dr. Alexander Wentland](https://www.sts.sot.tum.de/sts/personen/forschende/alexander-wentland/) from TU Munich - School of Social Sciences and Technology - Department of Science, Technology Society, I am currently developing an empirical model that investigates the dynamics of defense innovation at both country and company levels. This project aims to conceptualize, measure, and understand the economic, political, and technological drivers of innovation in the defense sector, with particular focus on how these factors interact to influence global security policies.
+- **Coordination Problems in EU Defense Procurement: A Common Agency and Contract Theory Analysis**: My doctoral research investigates how European Union member states coordinate defense procurement and spending within institutional frameworks such as the European Defence Fund (EDF) and PESCO. The project applies common agency and contract theory to examine how industrial asymmetries, sovereignty constraints, and divergent national interests shape efficiency, innovation, and policy outcomes in joint defense projects. Combining theoretical modeling with empirical analysis of EDF project data and case studies (e.g., Eurodrone), the research seeks to develop evidence-based insights for improving coordination and institutional design in European defense cooperation.
 
 - **Synchronized Politics**: Time, Power, and Policy Coordination in the European Union [(SYNCPOL)](https://www.gsi.uni-muenchen.de/lehreinheiten/ls_ps_eu_integration/forschungamlehrstuhl/erc-grant/index.html): As a Graduate Research Assistant at Ludwig-Maximilians-Universität Munich, I contribute to the ERC Advanced Grant project SYNCPOL: Synchronized Politics – Multiple Times and Political Power, led by [Prof. Klaus H. Goetz](https://www.gsi.uni-muenchen.de/personen/professoren/goetz/index.html). The project investigates how temporal structures—such as urgency, foresight, and sequencing—shape power dynamics and policy coordination across EU institutions. My role focuses on quantitatively modeling how time-related political language influences multi-level governance in the domains of migration and defense. This involves the semantic scaling of political speeches from the European Commission, Parliament, and Council using advanced NLP techniques, including fine-tuned Sentence-BERT models, dynamic embeddings, and PCA-based ideological mapping.
 
@@ -35,28 +33,29 @@ Completed Research Projects
 
 Research Interests
 ======
-My research interests encompass a broad range of topics within the fields of innovation in defense, arms control, and disarmament, including:
 
-- **Defense Innovation**: Investigating how technological advancements such as UAVs, AI, and cyber warfare reshape military capabilities and influence global security policies.
-  
-- **Economics of Defense Innovation**: Exploring the economic factors that drive technological advancements in the defense sector, including the funding, cost structures, and market dynamics that influence innovation and its adoption within military and defense frameworks.
-  
-- **Defense Export as a Driver of Innovation**: Examining how successful defense exports contribute to further innovation within the defense sector by creating feedback loops that stimulate R&D and the adoption of new technologies, ultimately enhancing national security and global competitiveness.
-  
-- **Arms Control**: Examining international treaties, policies, and mechanisms designed to regulate the proliferation and development of conventional and unconventional weapons, including nuclear, biological, chemical, and traditional arms, to enhance global security and stability.
-  
-- **Disarmament**: Exploring strategies and frameworks for the systematic reduction and abolition of armed forces and weapons, aiming to create conditions for peace and stability.
-  
-- **Dynamics of Global Security**: Analyzing the interplay of geopolitical and economic factors underlying defense policies and military spending in various countries, focusing on comparative analysis.
-  
-- **Industrial Bases and Technological Infrastructure**: Studying the role of industrial bases and technological infrastructure in supporting innovation and maintaining a competitive position in defense capabilities.
-  
-- **Policy Making**: Assessing how defense innovation impacts national and international policy-making and exploring ways to optimize these policies to improve security while fostering technological advancement.
+My work sits at the intersection of defense procurement, innovation policy, and institutional design, with a focus on how Europe can coordinate complex, multi-country programs efficiently while still spurring innovation and safeguarding strategic information.
 
-These interests shape my current and future research projects. I apply advanced methodologies, including regression models and impulse response functions, to understand the complex interactions within these areas.
+- **Defense Procurement & Multi-Goal Design**: How EU buyers balance three objectives in joint programs—security of military/strategic information, innovation performance, and economic growth/competitiveness—and how procurement instruments (PCP, PIS, Innovation Partnerships) can be structured to deliver on all three. 
+
+- **Coordination under Asymmetry (EDF, PESCO)**: How industrial capability gaps between small and large member states and divergent budget logics (NATO 2%, EDA benchmarks) shape collaboration, burden sharing, and “spend more, spend better, spend European.” 
+
+- **Common-Agency & Contract Theory for Joint Programs**: Applying common-agency and mechanism-design approaches to model multi-principal procurement (follow-on contracts, bundling vs. unbundling R&D/production, award criteria, negotiation vs. auction) and mitigate hold-up, lock-in, and foreclosure risks. 
+
+- **Innovation Effects of Public Procurement**: When and how public procurement triggers firm-level innovation (vs. incremental diffusion), the role of buyer capabilities, and how design choices (technology-neutral vs. specific tenders) alter incentives. 
+
+- **Strategic Investment & Industrial Base**: The political economy of sustained, multi-year defense investment and joint procurement as pillars of Europe’s defense-industrial capacity and strategic autonomy. 
+
+**Methods:** Contract/game theory, multi-attribute optimization for procurement trade-offs, and empirical analysis (panel econometrics on EDF/PESCO data; comparative case studies such as Eurodrone), complemented by text-as-data on institutional discourse.
+
+
 
 Academic Background
 ======
+
+**Ph.D. in Business Decisions and Analytics, University of Vienna (ongoing)**:
+My doctoral research focuses on the coordination and efficiency of defense procurement in the European Union, analyzing how industrial asymmetries, sovereignty constraints, and institutional mechanisms—such as the European Defence Fund (EDF) and PESCO—influence cooperation, innovation, and policy outcomes. The program includes advanced coursework in Contract Theory, Game Theory, Decision Sciences, Industrial Organization, and Econometrics for Policy Analysis.
+
 **M.Sc. Management and Technology, Technical University of Munich**: My major is Economics, Policy, and Innovation, with a technology focus on Computer Engineering. 
 
 Thesis Topic: " _EU Defense Discourse and Institutional Dynamics: A Computational Analysis of European Commission and European Parliament Rhetoric and Their Drivers (2000–2024)_"
@@ -131,6 +130,10 @@ During my studies, I have taken several relevant courses, including:
 
 Professional Experience
 ------
+
+**University of Vienna – Vienna: Doctoral Researcher, Department of Business Decisions and Analytics**
+
+Conducting PhD research and teachning activities on coordination and efficiency in European Union defense procurement, focusing on how industrial asymmetries, sovereignty constraints, and institutional mechanisms such as the European Defence Fund (EDF) and PESCO influence joint defense projects and innovation outcomes. Combining contract theory, game-theoretic modeling, and empirical analysis of EDF project data and case studies (e.g., Eurodrone) to generate policy-relevant insights for improving cooperation and institutional design in European defense.
 
 **Ludwig-Maximilians-Universität – Munich**:  Graduate Research Assistant, SYNCPOL (ERC Advanced Grant)  
 
