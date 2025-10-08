@@ -131,7 +131,7 @@ During my studies, I have taken several relevant courses, including:
 Professional Experience
 ------
 
-**University of Vienna – Vienna: Doctoral Researcher, Department of Business Decisions and Analytics**
+**University of Vienna – Vienna**: Doctoral Researcher, Department of Business Decisions and Analytics
 
 Conducting PhD research and teachning activities on coordination and efficiency in European Union defense procurement, focusing on how industrial asymmetries, sovereignty constraints, and institutional mechanisms such as the European Defence Fund (EDF) and PESCO influence joint defense projects and innovation outcomes. Combining contract theory, game-theoretic modeling, and empirical analysis of EDF project data and case studies (e.g., Eurodrone) to generate policy-relevant insights for improving cooperation and institutional design in European defense.
 
