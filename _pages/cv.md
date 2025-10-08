@@ -119,6 +119,10 @@ Education
 Work experience
 ======
 
+- **University of Vienna – Vienna: Doctoral Researcher (Department of Business Decisions and Analytics)**
+
+  - I conduct research on the coordination and efficiency of defense procurement in the European Union, focusing on how industrial asymmetries, sovereignty constraints, and institutional mechanisms—such as the European Defence Fund (EDF) and PESCO—influence cooperation, innovation, and policy outcomes. My work combines contract theory, game-theoretic modeling, and econometric analysis of EDF project data and case studies (e.g., Eurodrone) to develop policy-relevant insights for improving coordination and institutional design in European defense.
+
 - **Ludwig-Maximilians-Universität - Munich: Graduate Research Assistant (SYNCPOL Project)**
   - I work on the ERC-funded project SYNCPOL: Synchronized Politics, where I model how time-related political language—such as urgency, duration, and foresight—shapes EU policy coordination and power dynamics in migration and defense. My tasks include semantic scaling of political speeches across EU institutions using Python, Sentence-BERT, dynamic embeddings, and PCA-based ideological positioning.
  
