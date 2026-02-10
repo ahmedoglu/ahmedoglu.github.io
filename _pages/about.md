@@ -54,7 +54,7 @@ My work sits at the intersection of defense procurement, innovation policy, and 
 Academic Background
 ======
 
-**Ph.D. in Business Decisions and Analytics, University of Vienna (ongoing)**:
+**Ph.D. in Business Analytics and Decision Making, University of Vienna (ongoing)**:
 My doctoral research focuses on the coordination and efficiency of defense procurement in the European Union, analyzing how industrial asymmetries, sovereignty constraints, and institutional mechanisms—such as the European Defence Fund (EDF) and PESCO—influence cooperation, innovation, and policy outcomes. The program includes advanced coursework in Contract Theory, Game Theory, Decision Sciences, Industrial Organization, and Econometrics for Policy Analysis.
 
 **M.Sc. Management and Technology, Technical University of Munich**: My major is Economics, Policy, and Innovation, with a technology focus on Computer Engineering. 
