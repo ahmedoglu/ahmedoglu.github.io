@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-- **Ph.D. in Business Decisions and Analytics, University of Vienna (ongoing)**
+- **Ph.D. in Business Analytics and Decision Making, University of Vienna (ongoing)**
 
   My doctoral research focuses on the coordination and efficiency of defense procurement in the European Union, analyzing how industrial asymmetries, sovereignty constraints, and institutional mechanisms—such as the European Defence Fund (EDF) and PESCO—influence cooperation, innovation, and policy outcomes.
 
