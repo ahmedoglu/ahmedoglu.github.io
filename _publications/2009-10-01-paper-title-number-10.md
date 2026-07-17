@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2009-10-01-paper-title-number-10
 excerpt: 'This is an academic article'
 date: 2026-07-06
-venue: 'Academic Article'
+venue: 'New Perspectives'
 slidesurl: '[http://academicpages.github.io/files/slides1.pdf](https://sd.ie.metu.edu.tr/en/dhl-arac-kontrol-ve-siparis-miktari-tahminleme-karar-destek-sistemi-tasarimi)'
 paperurl: '[https://doi.org/10.1177/2336825X261466888](https://doi.org/10.1177/2336825X261466888)'
 ---
