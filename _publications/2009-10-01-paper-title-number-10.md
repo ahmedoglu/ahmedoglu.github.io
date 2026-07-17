@@ -7,6 +7,7 @@ date: 2026-07-06
 venue: 'New Perspectives'
 slidesurl: '[http://academicpages.github.io/files/slides1.pdf](https://sd.ie.metu.edu.tr/en/dhl-arac-kontrol-ve-siparis-miktari-tahminleme-karar-destek-sistemi-tasarimi)'
 paperurl: '[https://doi.org/10.1177/2336825X261466888](https://doi.org/10.1177/2336825X261466888)'
+citation: 'Ahmedoglu, M. (2026). Turning legacy into alliance relevance: Czechia’s defense-industrial imaginary and the politics of selective sovereignty. New Perspectives, 0(0).'
 ---
 
 **Author:** Mümin Ahmedoğlu
