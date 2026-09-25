@@ -39,7 +39,7 @@ My major is Economics, Policy, and Innovation, with a technology focus on Comput
 
 Thesis topic: *EU Defense Discourse and Institutional Dynamics: A Computational Analysis of European Commission and European Parliament Rhetoric and Their Drivers (2000–2024)*
 
-Supervisor: Prof. Dr. Hanna Hottenrott
+Supervisor: Prof. Dr. Hanna Hottenrott · Advisor: Dr. David Angenendt
 
 <details markdown="1">
 <summary>Research papers written during the program</summary>
