@@ -1,22 +1,13 @@
-# main links links
+# Top navigation, in order. A link is shown only if its page exists,
+# so "Teaching" appears automatically once _pages/teaching.md is published.
 main:
-  - title: "Publications"
-    url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
+  - title: Research
+    url: /research/
+  - title: Talks
+    url: /talks/
+  - title: Teaching
+    url: /teaching/
+  - title: Writing
+    url: /writing/
+  - title: CV
     url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/

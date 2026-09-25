@@ -1,0 +1,17 @@
+{%- assign p = include.p -%}
+{%- assign pid = p.slug | default: p.title | slugify -%}
+<article class="pub" id="{{ pid }}">
+  <p class="pub-kicker"><span class="badge badge-{{ p.category }}">{% include pub-label.html category=p.category %}</span><span class="pub-year">{{ p.date | date: "%Y" }}</span>{% if p.status %}<span class="pub-status">{{ p.status | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>{% endif %}</p>
+  <h3 class="pub-title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+  <p class="pub-authors">{% include authors.html authors=p.authors %}{% if p.venue %}<span class="pub-venue">{{ p.venue }}</span>{% endif %}</p>
+  <div class="pub-actions">
+    <button type="button" class="pill js-only" data-toggle="{{ pid }}-abs" aria-expanded="false" aria-controls="{{ pid }}-abs">Abstract</button>
+    {%- if p.doi %}<a class="pill" href="https://doi.org/{{ p.doi }}">DOI{% include icon.html name="external" %}</a>{% endif %}
+    {%- if p.pdf %}<a class="pill" href="{% include url.html u=p.pdf %}">PDF</a>{% endif %}
+    {%- if p.slides %}<a class="pill" href="{% include url.html u=p.slides %}">Slides</a>{% endif %}
+    {%- if p.link %}<a class="pill" href="{% include url.html u=p.link %}">Link{% include icon.html name="external" %}</a>{% endif %}
+    <button type="button" class="pill js-only" data-toggle="{{ pid }}-cite" aria-expanded="false" aria-controls="{{ pid }}-cite">Cite</button>
+  </div>
+  <div class="pub-panel prose prose-sm" id="{{ pid }}-abs" hidden>{{ p.content }}</div>
+  <div class="pub-panel" id="{{ pid }}-cite" hidden>{% include cite.html p=p id=pid %}</div>
+</article>

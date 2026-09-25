@@ -1,0 +1,8 @@
+{%- assign _s = include.item -%}
+<li class="post-row" data-topics="|{{ _s.topics | join: '|' }}|" data-search="{{ _s.title | downcase | escape }} {{ _s.subtitle | downcase | escape }} {{ _s.topics | join: ' ' | downcase | escape }} substack">
+  <time class="post-row-date" datetime="{{ _s.date | date: '%Y-%m-%d' }}">{{ _s.date | date: "%b %-d" }}</time>
+  <div class="post-row-main">
+    <a class="post-row-title" href="{{ _s.url }}">{{ _s.title }}</a>
+    <p class="post-row-meta"><span class="source-badge">{% include icon.html name="substack" %}Substack</span>{% if _s.minutes %} · {{ _s.minutes }} min read{% endif %}{% for t in _s.topics %} · {{ t }}{% endfor %}</p>
+  </div>
+</li>

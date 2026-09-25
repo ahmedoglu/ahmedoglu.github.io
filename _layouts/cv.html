@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{%- assign a = site.author -%}
+<article class="container narrow cv">
+  <header class="cv-header">
+    <div class="cv-id">
+      <h1 class="cv-name">{{ a.name }}</h1>
+      <p class="cv-role">{{ a.role }}, {{ a.department }}, {{ a.institution }}</p>
+      <ul class="cv-contact">
+        <li>{% include icon.html name="mail" %}<a href="mailto:{{ a.email }}">{{ a.email }}</a></li>
+        <li>{% include icon.html name="globe" %}<a href="{{ '/' | absolute_url }}">{{ site.url | remove: "https://" }}</a></li>
+        <li>{% include icon.html name="map-pin" %}<span>{{ a.location }}</span></li>
+        {%- if site.profiles.orcid %}<li>{% include icon.html name="orcid" %}<a href="{{ site.profiles.orcid }}">ORCID {{ site.profiles.orcid | split: "/" | last }}</a></li>{% endif %}
+        {%- if site.profiles.linkedin %}<li>{% include icon.html name="linkedin" %}<a href="{{ site.profiles.linkedin }}">LinkedIn</a></li>{% endif %}
+        {%- if site.profiles.google_scholar %}<li>{% include icon.html name="scholar" %}<a href="{{ site.profiles.google_scholar }}">Google Scholar</a></li>{% endif %}
+      </ul>
+    </div>
+    <div class="cv-actions">
+      {%- if a.cv_pdf %}<a class="btn btn-primary" href="{% include url.html u=a.cv_pdf %}">{% include icon.html name="download" %}Download PDF</a>{% endif %}
+      <button type="button" class="btn js-only" data-print>{% include icon.html name="print" %}Print or save as PDF</button>
+    </div>
+  </header>
+  <div class="prose cv-body">
+{{ content }}
+  </div>
+</article>

@@ -1,0 +1,14 @@
+{%- assign t = include.t -%}
+{%- assign img = "" -%}
+{%- if t.content contains "<img" -%}{%- assign img = t.content | split: 'src="' | slice: 1, 1 | first | split: '"' | first -%}{%- endif -%}
+<article class="talk-card">
+  <a class="talk-thumb" href="{{ t.url | relative_url }}" tabindex="-1" aria-hidden="true">
+    {%- if img != "" -%}<img src="{{ img }}" alt="" loading="lazy" decoding="async">{%- else -%}{% include icon.html name="presentation" %}{%- endif -%}
+  </a>
+  <div class="talk-info">
+    <p class="kicker">{{ t.type }} · <time datetime="{{ t.date | date: '%Y-%m-%d' }}">{{ t.date | date: "%B %Y" }}</time></p>
+    <h2 class="talk-title"><a href="{{ t.url | relative_url }}">{{ t.title }}</a></h2>
+    <p class="talk-event">{{ t.event }}{% if t.host %}, {{ t.host }}{% endif %}</p>
+    <p class="talk-location">{% include icon.html name="map-pin" %}<span>{{ t.location }}</span></p>
+  </div>
+</article>

@@ -1,0 +1,8 @@
+{%- assign post = include.post -%}
+<li class="post-row" data-topics="|{{ post.topics | join: '|' }}|" data-search="{{ post.title | downcase | escape }} {{ post.tags | join: ' ' | downcase | escape }} {{ post.topics | join: ' ' | downcase | escape }}">
+  <time class="post-row-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%b %-d" }}</time>
+  <div class="post-row-main">
+    <a class="post-row-title" href="{{ post.url | relative_url }}"{% if post.lang %} hreflang="{{ post.lang }}" lang="{{ post.lang }}"{% endif %}>{{ post.title }}</a>
+    <p class="post-row-meta">{% include reading-time.html content=post.content %}{% if post.lang == "tr" %} · Türkçe{% endif %}{% for t in post.topics %} · {{ t }}{% endfor %}</p>
+  </div>
+</li>

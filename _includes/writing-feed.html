@@ -1,0 +1,63 @@
+{%- comment -%}
+  Essays from _posts/ and Substack posts from _data/substack.yml, newest first.
+  Usage: {% include writing-feed.html style="rows" %}            Writing page, grouped by year
+         {% include writing-feed.html style="cards" limit=3 %}   home page
+  Items are sorted through "date|source|index" keys because the two sources
+  store dates as different types.
+{%- endcomment -%}
+{%- assign _keys = "" | split: "" -%}
+{%- for p in site.posts -%}
+  {%- capture _k -%}{{ p.date | date: "%Y-%m-%d" }}|P|{{ forloop.index0 | prepend: "000" | slice: -3, 3 }}{%- endcapture -%}
+  {%- assign _keys = _keys | push: _k -%}
+{%- endfor -%}
+{%- for s in site.data.substack -%}
+  {%- capture _k -%}{{ s.date | date: "%Y-%m-%d" }}|S|{{ forloop.index0 | prepend: "000" | slice: -3, 3 }}{%- endcapture -%}
+  {%- assign _keys = _keys | push: _k -%}
+{%- endfor -%}
+{%- assign _keys = _keys | sort | reverse -%}
+{%- if include.style == "cards" -%}
+{%- assign _lim = include.limit | default: 3 %}
+<div class="card-grid">
+  {%- for k in _keys limit: _lim -%}
+    {%- assign _parts = k | split: "|" -%}
+    {%- assign _i = _parts[2] | plus: 0 -%}
+    {%- if _parts[1] == "P" -%}
+      {%- assign _post = site.posts[_i] %}
+  {% include post-card.html post=_post %}
+    {%- else -%}
+      {%- assign _item = site.data.substack[_i] %}
+  {% include substack-card.html item=_item %}
+    {%- endif -%}
+  {%- endfor %}
+</div>
+{%- else %}
+<div class="post-years" id="post-list">
+  {%- assign _cur = "" -%}
+  {%- for k in _keys -%}
+    {%- assign _parts = k | split: "|" -%}
+    {%- assign _y = _parts[0] | slice: 0, 4 -%}
+    {%- if _y != _cur -%}
+      {%- unless _cur == "" %}
+    </ol>
+  </section>
+      {%- endunless %}
+  <section class="year-group" aria-labelledby="y{{ _y }}">
+    <h2 class="year-title" id="y{{ _y }}">{{ _y }}</h2>
+    <ol class="post-rows">
+      {%- assign _cur = _y -%}
+    {%- endif -%}
+    {%- assign _i = _parts[2] | plus: 0 -%}
+    {%- if _parts[1] == "P" -%}
+      {%- assign _post = site.posts[_i] %}
+      {% include post-row.html post=_post %}
+    {%- else -%}
+      {%- assign _item = site.data.substack[_i] %}
+      {% include substack-row.html item=_item %}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- unless _cur == "" %}
+    </ol>
+  </section>
+  {%- endunless %}
+</div>
+{%- endif -%}

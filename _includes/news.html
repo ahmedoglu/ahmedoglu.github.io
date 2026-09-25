@@ -1,0 +1,9 @@
+{%- assign _lim = include.limit | default: 50 -%}
+<ol class="news">
+{%- for _news in site.data.news limit: _lim %}
+  <li class="news-item">
+    <time datetime="{{ _news.date | date: '%Y-%m-%d' }}">{{ _news.date | date: "%b %Y" }}</time>
+    <p class="news-text">{{ _news.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% if _news.link %} <a class="news-link" href="{% include url.html u=_news.link %}"><span class="visually-hidden">Read more</span>{% include icon.html name="arrow-right" %}</a>{% endif %}</p>
+  </li>
+{%- endfor %}
+</ol>

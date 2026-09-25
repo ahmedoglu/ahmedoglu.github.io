@@ -1,51 +1,185 @@
-# Academic Pages
+# ahmedoglu.github.io
 
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
+Personal academic website of **Mümin Ahmedoğlu**: <https://ahmedoglu.github.io>
 
-Academic Pages is a Github Pages template for academic websites.
+The site is built by GitHub Pages with Jekyll. Every change you commit to the
+`master` branch goes live automatically after 1–2 minutes. You can edit
+everything directly on github.com: open a file, click the pencil icon, edit,
+and commit.
 
-# Getting Started
+## Where things live
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+| To change…                        | Edit this file or folder                  |
+|-----------------------------------|-------------------------------------------|
+| Bio and research-interest tags    | `_pages/about.md` (the home page)         |
+| News on the home page             | `_data/news.yml`                          |
+| Name, title, email, profile links | `_config.yml` (the `author` and `profiles` sections) |
+| Publications and working papers   | `_publications/` (one file per paper)     |
+| Talks                             | `_talks/` (one file per talk)             |
+| Essays                            | `_posts/` (one file per essay)            |
+| Substack posts listed on the site | `_data/substack.yml`                      |
+| Research page text and projects   | `_pages/research.md`                      |
+| CV                                | `_pages/cv.md`                            |
+| Menu                              | `_data/navigation.yml`                    |
+| Essay topics (filters)            | `_data/topics.yml`                        |
+| Colors and design                 | `assets/css/site.css` (color tokens at the top) |
 
-See more info at https://academicpages.github.io/
+## Add an essay
 
-## Running Locally
+Create a file in `_posts/` named `YYYY-MM-DD-short-title.md`, for example
+`_posts/2026-10-02-defence-budgets-after-2025.md`. The part after the date
+becomes the address: `/writing/defence-budgets-after-2025/`.
 
-When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+```markdown
+---
+title: "Defence Budgets After 2025"
+date: 2026-10-02
+topics: [Defense economics, Europe]
+tags:
+  - Defense Budget
+  - NATO
+---
 
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+Your text in Markdown. Use ## for section headings; essays with three or
+more sections get an automatic "On this page" menu.
+```
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+Topics must match the names in `_data/topics.yml`. Add `lang: tr` for an essay
+in Turkish. To add images, drag them into the GitHub editor window.
 
-# Maintenance
+## List a new Substack post
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+Posts from the newsletter *Defense Economics Notes* are not copied into the site.
+The Writing page and the home page list them next to the essays and link to
+Substack. To add one, put an entry at the top of `_data/substack.yml`:
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
+```yaml
+- title: "Title of the Post"
+  subtitle: "The subtitle shown on Substack"
+  date: 2026-10-05
+  url: https://ahmedoglu.substack.com/p/title-of-the-post
+  minutes: 8                      # optional reading time
+  topics: [Defense economics]     # optional, from _data/topics.yml
+```
 
-## Bugfixes and enhancements
+If an essay exists both here in `_posts/` and on Substack, keep it in `_posts/`
+only and add `substack: https://ahmedoglu.substack.com/p/…` to its front matter.
+The essay page then links to the Substack version.
 
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
+## Add a publication or working paper
 
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+Create a file in `_publications/`, for example `_publications/eu-procurement-coordination.md`.
+It appears on the Research page, on the CV, and on its own page at
+`/research/eu-procurement-coordination/`.
+
+```markdown
+---
+title: "Title of the Paper"
+authors: [Mümin Ahmedoğlu, Co Author]
+date: 2026-10-01
+category: working        # journal, working, chapter, thesis, or project
+venue: Journal Name      # for journal articles
+status: Under review at *Journal Name*   # optional; *…* shows in italics
+doi: 10.1234/abcd        # optional
+pdf: /files/paper.pdf    # optional; put the PDF in the files/ folder
+slides:                  # optional link
+featured: true           # optional; shows it on the home page
+keywords: [Defense procurement, EDF]
+---
+
+The abstract goes here.
+```
+
+A citation (APA) and a BibTeX entry are generated automatically from these
+fields. When a working paper is published, change `category` to `journal` and
+add `venue` and `doi`.
+
+## Add a talk
+
+Create a file in `_talks/`, for example `_talks/ices-2027.md`:
+
+```markdown
+---
+title: "Title of the Talk"
+type: Conference presentation
+event: Name of the Conference
+host: Host University
+location: City, Country
+date: 2026-06-20                      # used for sorting
+when: June 20–22, 2026                # optional; shown instead of the date
+link: https://conference-website.org  # optional event page
+slides: /files/slides-ices-2026.pdf   # optional
+paper: /research/some-paper/          # optional link to a related paper
+---
+
+A short description. Photos dragged into the editor appear as a gallery.
+```
+
+## Add a news item
+
+Add an entry at the top of `_data/news.yml`, keeping the indentation:
+
+```yaml
+- date: 2026-10-01
+  text: Started a research stay at … (Markdown works here)
+  link: https://example.org   # optional
+```
+
+## Update the CV
+
+`_pages/cv.md` is plain Markdown. Each `###` line is an entry, and the line
+directly below it is its grey details line, where you can add years:
+
+```markdown
+### Doctoral Researcher
+University of Vienna · Vienna, Austria · 2025–present
+```
+
+Publications, working papers, and talks are filled in automatically. To offer
+a PDF of your CV, upload it as `files/cv.pdf` and set `cv_pdf: /files/cv.pdf`
+in `_config.yml`. Visitors can also use the "Print or save as PDF" button.
+
+## Add teaching
+
+Add one file per course to `_teaching/`, for example
+`_teaching/2027s-game-theory.md`. It appears on the Teaching page and in the CV.
+
+```markdown
+---
+title: "Game Theory (BA)"
+role: Lecturer
+term: Summer 2027
+institution: University of Vienna
+details: Bachelor in Economics · Course 040123 · 4 ECTS · English
+date: 2027-03-01
+link: https://ufind.univie.ac.at/en/course.html?lv=040123&semester=2027S
+---
+
+One or two sentences about the course.
+```
+
+`date` only sets the order, newest first. To hide the Teaching page and its
+menu link, set `published: false` in `_pages/teaching.md`.
+
+## Old addresses
+
+The site was redesigned in September 2026. Every old address, such as
+`/posts/2012/08/blog-post-26/` or `/publication/2009-10-01-paper-title-number-10`,
+redirects to its new page through the `redirect_from` lines in each file.
+Please keep those lines.
+
+## Preview on your computer (optional)
+
+Install Ruby 3.3 (`brew install ruby@3.3`), then in this folder:
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+and open <http://localhost:4000>. The `Gemfile` uses the same `github-pages`
+gem as GitHub, so the preview matches the live site.
+
+---
+
+© Mümin Ahmedoğlu. The texts, papers, and photos on this site are the author's own work.

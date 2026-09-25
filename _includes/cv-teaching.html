@@ -1,0 +1,8 @@
+{%- assign _courses = site.teaching | sort: "date" | reverse -%}
+{%- for c in _courses %}
+<h3>{{ c.title }}</h3>
+<p>{{ c.role | default: "Teaching" }} · {{ c.institution }} · {{ c.term }}</p>
+{%- if c.details %}
+<p>{{ c.details }}</p>
+{%- endif %}
+{%- endfor %}

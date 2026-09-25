@@ -1,0 +1,6 @@
+{%- assign post = include.post -%}
+<article class="post-card"{% if post.lang %} lang="{{ post.lang }}"{% endif %}>
+  <p class="post-card-meta"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y" }}</time> · {% include reading-time.html content=post.content %}</p>
+  <h3 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  <p class="post-card-excerpt">{% include excerpt.html html=post.content length=170 %}</p>
+</article>

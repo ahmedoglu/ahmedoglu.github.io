@@ -1,213 +1,166 @@
 ---
-layout: archive
-title: "CV"
+layout: cv
+title: Curriculum Vitae
 permalink: /cv/
-author_profile: true
 redirect_from:
   - /resume
+  - /resume.html
+description: >-
+  Curriculum vitae of Mümin Ahmedoğlu, doctoral researcher at the University
+  of Vienna: education, research experience, publications, and talks.
 ---
 
-{% include base_path %}
+{% comment %}
+  How entries work: each "###" line is an entry. The line directly below it is
+  shown in grey as the details line (institution · place · years).
+  Add years there when you like, e.g.  University of Vienna · Vienna, Austria · 2025–present
+{% endcomment %}
 
-Education
-======
-- **Ph.D. in Business Analytics and Decision Making, University of Vienna (ongoing)**
+## Education
 
-  My doctoral research focuses on the coordination and efficiency of defense procurement in the European Union, analyzing how industrial asymmetries, sovereignty constraints, and institutional mechanisms—such as the European Defence Fund (EDF) and PESCO—influence cooperation, innovation, and policy outcomes.
+### Ph.D. in Business Decisions and Analytics
+University of Vienna · Vienna, Austria · Oct 2025–present
 
-  Dissertation Topic: "Coordination Problems in EU Defense Procurement: A Common Agency Analysis"
+Dissertation topic: *Coordination Problems in EU Defense Procurement: A Common Agency Analysis*
 
-  During my doctoral studies, I am taking several courses, including:
+Supervisors: Prof. Dr. Oliver Fabel and Ass.-Prof. Dr. Dmitriy Knyazev
 
-    - Contract Theory
-    
-    - Game Theory
-    
-    - Decision Sciences
-    
-    - Econometrics for Policy Analysis
-    
-    - Industrial Organization
-    
-    - Decision-Making under Risk and Uncertainty
-    
-    - Incentives and Strategic Behavior
-    
-    - Philosophy and Economics
-    
-    - Advanced Topics in Logistics and Supply Chain Management
+My doctoral research focuses on the coordination and efficiency of defense procurement in the European Union, analyzing how industrial asymmetries, sovereignty constraints, and institutional mechanisms—such as the European Defence Fund (EDF) and PESCO—influence cooperation, innovation, and policy outcomes.
 
+<details markdown="1">
+<summary>Doctoral coursework</summary>
 
+Contract Theory · Game Theory · Decision Sciences · Econometrics for Policy Analysis · Industrial Organization · Decision-Making under Risk and Uncertainty · Incentives and Strategic Behavior · Philosophy and Economics · Advanced Topics in Logistics and Supply Chain Management
 
-- **M.Sc. Management and Technology, Technical University of Munich**
+</details>
 
-  My major is Economics, Policy, and Innovation, with a technology focus on Computer Engineering.
-  
-  Thesis Topic: " _EU Defense Discourse and Institutional Dynamics: A Computational Analysis of European Commission and European Parliament Rhetoric and Their Drivers (2000–2024)_"
+### M.Sc. Management and Technology
+Technical University of Munich (TUM) · Munich, Germany · Mar 2023–Aug 2025
 
-  Research Papers:
-  - Politics of Innovation & Technology: “_Determinants of Defense Technology Innovation: A Comparative Analysis of Economic, Geopolitical, and Policy Factors Across Leading and Emerging Nations_”
-  
-  - Economics of Innovation: "_Military Innovation vs. Operations: How Arms Trade, Technological Capacity, and Economic Strength Shape PESCO Participation_"
-  
-  - Innovation, Society, and Public Policy: "_Balancing Act: Innovation, Society, and Defense Policy – A Comparative Analysis of Turkey and Germany_" 
-  
-  - Technology Governance and the Regulatory State: "_Regulatory Challenges of Eurodrone Under PESCO and EU Strategic Autonomy: A Techno-Securitization Perspective_" 
-  
-  - Economic and Political Spaces of Innovation: "_Defense Innovation and Strategic Autonomy in Czechia: Socio-Technical Imaginaries and Security Narratives_"
-  
-  - Current Issues in Technology Management: “_Unlocking Dual-Use Potential: The Case for Military Drone Adaptation in Civilian Sectors_”
+My major is Economics, Policy, and Innovation, with a technology focus on Computer Engineering.
 
+Thesis topic: *EU Defense Discourse and Institutional Dynamics: A Computational Analysis of European Commission and European Parliament Rhetoric and Their Drivers (2000–2024)*
 
+<details markdown="1">
+<summary>Research papers written during the program</summary>
 
-  During my studies, I have taken several relevant courses, including:
+- Politics of Innovation & Technology: *Determinants of Defense Technology Innovation: A Comparative Analysis of Economic, Geopolitical, and Policy Factors Across Leading and Emerging Nations*
+- Economics of Innovation: *Military Innovation vs. Operations: How Arms Trade, Technological Capacity, and Economic Strength Shape PESCO Participation*
+- Innovation, Society, and Public Policy: *Balancing Act: Innovation, Society, and Defense Policy – A Comparative Analysis of Turkey and Germany*
+- Technology Governance and the Regulatory State: *Regulatory Challenges of Eurodrone Under PESCO and EU Strategic Autonomy: A Techno-Securitization Perspective*
+- Economic and Political Spaces of Innovation: *Defense Innovation and Strategic Autonomy in Czechia: Socio-Technical Imaginaries and Security Narratives*
+- Current Issues in Technology Management: *Unlocking Dual-Use Potential: The Case for Military Drone Adaptation in Civilian Sectors*
 
-    Innovation, Technology, and Strategy:
-    
-    - Innovation and Technology Management in Practice
-    - Value-based Business Strategy & Innovation
-    - Applied Strategy and Organization
-    - Economic and Political Spaces of Innovation
-    - Economics of Innovation
-    - Politics of Innovation and Technology
-    - Innovation, Society, and Public Policy
-    
-    Governance, Policy, and Regulation:
-    
-    - Technology Governance and the Regulatory State
-    - Introduction to Science and Technology Policy
-    - Advanced Topics in Comparative and International Political Economy
-    
-    Data, Research, and Quantitative Methods:
-    
-    - Empirical Research in Management and Economics
-    - Quantitative Research Proposals: Developing an Empirical Research Project
-    - Introduction to Bayesian Data Analysis
-    - Applied Statistics and Econometrics
-    - Risk Theory and Modeling
-    
-    Programming and Visualization:
-    
-    - Data Analysis and Visualization in R
-    - Introduction to Programming
+</details>
 
+<details markdown="1">
+<summary>Selected coursework</summary>
 
-- **B.Sc. Industrial Engineering, Middle East Technical University**
+**Innovation, technology, and strategy:** Innovation and Technology Management in Practice · Value-based Business Strategy & Innovation · Applied Strategy and Organization · Economic and Political Spaces of Innovation · Economics of Innovation · Politics of Innovation and Technology · Innovation, Society, and Public Policy
 
-  I specialized in systems design and developed my bachelor’s thesis on improving sales processes through an offline case decision support system design.
+**Governance, policy, and regulation:** Technology Governance and the Regulatory State · Introduction to Science and Technology Policy · Advanced Topics in Comparative and International Political Economy
 
-  During my studies, I have taken several relevant courses, including:
+**Data, research, and quantitative methods:** Empirical Research in Management and Economics · Quantitative Research Proposals: Developing an Empirical Research Project · Introduction to Bayesian Data Analysis · Applied Statistics and Econometrics · Risk Theory and Modeling
 
-  - Introduction to Probability
-  - Introduction to Statistics
-  - Statistical Linear Models
-  - Introduction to Data Mining
-  - Linear Programming
-  - Network Flows And Integer Programming
-  - Stochastic Models in Operations Research
-  - Simulation
-  - Introduction to Combinatorial Analysis
-  - Systems Thinking
-  - Decision Analysis
-  - Principles Of Economics I
-  - Principles Of Economics II
-  - Engineering Economy
-  - Financial Engineering
-  - Scientific Computing for Industrial Engineering
+**Programming and visualization:** Data Analysis and Visualization in R · Introduction to Programming
 
+</details>
 
-Work experience
-======
+### B.Sc. Industrial Engineering
+Middle East Technical University (METU) · Ankara, Türkiye · Sep 2014–Sep 2022
 
-- **University of Vienna – Vienna: Doctoral Researcher (Department of Business Decisions and Analytics)**
+I specialized in systems design and developed my bachelor’s thesis, with Şişecam, on improving sales processes through an offline case decision support system design. Systems design project: [*DHL Supply Chain: Vehicle Control and Order Quantity Estimation Decision Support System*](/research/dhl-crossdock-decision-support/).
 
-  - I conduct research on the coordination and efficiency of defense procurement in the European Union, focusing on how industrial asymmetries, sovereignty constraints, and institutional mechanisms—such as the European Defence Fund (EDF) and PESCO—influence cooperation, innovation, and policy outcomes. My work combines contract theory, game-theoretic modeling, and econometric analysis of EDF project data and case studies (e.g., Eurodrone) to develop policy-relevant insights for improving coordination and institutional design in European defense.
+<details markdown="1">
+<summary>Selected coursework</summary>
 
-- **Ludwig-Maximilians-Universität - Munich: Graduate Research Assistant (SYNCPOL Project)**
-  - I work on the ERC-funded project SYNCPOL: Synchronized Politics, where I model how time-related political language—such as urgency, duration, and foresight—shapes EU policy coordination and power dynamics in migration and defense. My tasks include semantic scaling of political speeches across EU institutions using Python, Sentence-BERT, dynamic embeddings, and PCA-based ideological positioning.
- 
-- **Siemens - Munich: P&O Transformation Strategy Working Student**
-  - I contribute to strategic people and organization transformation projects by developing data-driven concepts aligned with Siemens' People Strategy for Germany. I support data strategy implementation by analyzing people-related datasets, creating dashboards and reports, and promoting data-informed solutions for the future of work.
+Introduction to Probability · Introduction to Statistics · Statistical Linear Models · Introduction to Data Mining · Linear Programming · Network Flows and Integer Programming · Stochastic Models in Operations Research · Simulation · Introduction to Combinatorial Analysis · Systems Thinking · Decision Analysis · Principles of Economics I–II · Engineering Economy · Financial Engineering · Scientific Computing for Industrial Engineering
 
-- **STM - Ankara: Associate Project Manager (Project Engineer)**
-  - I managed technical projects related to tactical mini UAV systems and R&D projects for defense and military use, including KARGU, BOYGA, ALPAGU, and TOGAN.
+</details>
 
- - **TUM Venture Labs - Munich: Technology Infrastructure Graduate Working Student**
-    - I align technology infrastructure in Munich with startups' needs, automate and optimize the startup journey with TUM Venture Labs, and facilitate connections between startups and resources.
+## Research experience
 
+### Doctoral Researcher, Economics of Defense Procurement
+University of Vienna, Department of Business Decisions and Analytics · Vienna, Austria · Oct 2025–present
 
-- **Siemens Advanta Solutions - Munich: Strategy, Digitalization & Sustainability Working Student**
-  - I collaborated on sustainability-driven strategic initiatives and supporting regional digitalization projects.
+I conduct research on the coordination and efficiency of defense procurement in the European Union, focusing on how industrial asymmetries, sovereignty constraints, and institutional mechanisms—such as the European Defence Fund (EDF) and PESCO—influence cooperation, innovation, and policy outcomes. My work combines contract theory, game-theoretic modeling, and econometric analysis of EDF project data and case studies (e.g., Eurodrone) to develop policy-relevant insights for improving coordination and institutional design in European defense.
 
+### Graduate Research Assistant, SYNCPOL (ERC Advanced Grant)
+Ludwig-Maximilians-Universität München (LMU) · Munich, Germany · Apr 2025–Oct 2025
 
+I worked on the ERC-funded project SYNCPOL: Synchronized Politics, where I modeled how time-related political language—such as urgency, duration, and foresight—shapes EU policy coordination and power dynamics in migration and public health. My tasks included semantic scaling of political speeches across EU institutions using Python, Sentence-BERT, dynamic embeddings, and PCA-based ideological positioning.
 
-- **TUM School of Management - Munich: IT Management & Enterprise Processes Working Student**
-  - I was involved in IT process design and integration, process optimization, and agile project management.
-    
+## Publications
 
+{% include cv-pubs.html category="journal,chapter" %}
 
-- **Allianz SE - Munich: Group IT Strategy & Management Working Student**
-  - I managed the Enterprise Architecture Repository and leading CIO communications and IT transformation initiatives.
-    
-  
-Skills
-======
-* Econometrics & Quantitative Analysis
+## Working papers
 
-  * Panel Data Analysis, Causal Inference, Forecasting, Regression Modeling
-  
-  * Econometrics for Policy and Defense Procurement Studies
+{% include cv-pubs.html category="working" %}
 
-* Theoretical & Mathematical Modeling
+## Presentations
 
-  * Contract Theory, Game Theory, Optimization, Decision Analysis
-  
-  * Linear and Non-linear Models, Network Modeling, Simulation
+{% include cv-talks.html %}
 
-* Programming & Data Science
+## Teaching
 
-  * Python (NumPy, pandas, matplotlib, scikit-learn)
-  
-  * R (Econometrics, Data Visualization, Statistical Analysis)
-  
-  * Java (Object-Oriented Programming)
-  
-  * NLP & Text-as-Data (Sentence-BERT, Topic Modeling, PCA-based Semantic Scaling)
+{% include cv-teaching.html %}
 
-* Research & Analytical Tools
+## Professional experience
 
-  * GAMS, RStudio, Stata, Minitab, Tableau
-  
-  * Data Visualization, Statistical Computing, and Reproducible Research
+### P&O Transformation Strategy Working Student
+Siemens · Munich, Germany · Apr 2025–Oct 2025
 
-* Project & Academic Management
+I contributed to strategic people and organization transformation projects by developing data-driven concepts aligned with Siemens’ People Strategy for Germany. I supported data strategy implementation by analyzing people-related datasets, creating dashboards and reports, and promoting data-informed solutions for the future of work.
 
-  * Research Design, Project Coordination, and Policy Analysis
-  
-  * Cross-functional Collaboration and Academic Communication
+### Technology Infrastructure Graduate Working Student
+TUM Venture Labs · Munich, Germany · Oct 2024–Feb 2025
 
-* Languages
+I aligned technology infrastructure in Munich with startups’ needs, automated and optimized the startup journey with TUM Venture Labs, and facilitated connections between startups and resources.
 
-  * Turkish (Native), English (Fluent), Arabic (Fluent), German (Intermediate)
+### Strategy, Digitalization & Sustainability Working Student
+Siemens Advanta Consulting · Munich, Germany · Mar 2024–Sep 2024
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+I collaborated on sustainability-driven strategic initiatives and supported regional digitalization projects.
+
+### IT Management & Enterprise Processes Working Student
+TUM School of Management · Munich, Germany · Oct 2023–Sep 2024
+
+I was involved in IT process design and integration, process optimization, and agile project management.
+
+### Group IT Strategy & Management Working Student
+Allianz SE · Munich, Germany · Jul 2023–Mar 2024
+
+I managed the Enterprise Architecture Repository and led CIO communications and IT transformation initiatives.
+
+### Associate Project Manager (Project Engineer)
+STM · Ankara, Türkiye · Mar 2021–May 2023
+
+I managed technical projects related to tactical mini UAV systems and R&D projects for defense and military use, including KARGU, BOYGA, ALPAGU, and TOGAN.
+
+### R&D Undergraduate Project Engineer
+Baykar Technologies · Istanbul, Türkiye · Jul 2020–Mar 2021
+
+I was a member of the Research and Development Project Management Office for the Bayraktar TB2 and AKINCI tactical UAV systems, working on engineering change management, configuration management, systems design, systems engineering, and military standards.
+
+## Skills
+
+Econometrics & quantitative analysis
+: Panel data analysis, causal inference, forecasting, regression modeling; econometrics for policy and defense procurement studies
+
+Theoretical & mathematical modeling
+: Contract theory, game theory, optimization, decision analysis; linear and non-linear models, network modeling, simulation
+
+Programming & data science
+: Python (NumPy, pandas, matplotlib, scikit-learn); R (econometrics, data visualization, statistical analysis); Java (object-oriented programming); NLP and text-as-data (Sentence-BERT, topic modeling, PCA-based semantic scaling)
+
+Research & analytical tools
+: GAMS, RStudio, Stata, Minitab, JASP, Tableau, DAX, VBA; data visualization, statistical computing, and reproducible research
+
+Project & academic management
+: Research design, project coordination, and policy analysis; cross-functional collaboration and academic communication; JIRA, MS Project, Confluence, Notion
+{: .skills}
+
+## Languages
+
+Turkish (native) · English (fluent) · Arabic (fluent) · German (intermediate, B1)

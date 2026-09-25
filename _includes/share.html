@@ -1,0 +1,10 @@
+{%- assign _u = page.url | absolute_url -%}
+{%- assign _ue = _u | cgi_escape -%}
+{%- assign _te = page.title | strip_html | cgi_escape | replace: "+", "%20" -%}
+<div class="share">
+  <span class="share-label">Share</span>
+  <a class="icon-btn" href="https://www.linkedin.com/sharing/share-offsite/?url={{ _ue }}"><span class="visually-hidden">Share on LinkedIn</span>{% include icon.html name="linkedin" %}</a>
+  <a class="icon-btn" href="https://x.com/intent/post?url={{ _ue }}&amp;text={{ _te }}"><span class="visually-hidden">Share on X</span>{% include icon.html name="x" %}</a>
+  <a class="icon-btn" href="mailto:?subject={{ _te }}&amp;body={{ _ue }}"><span class="visually-hidden">Share by email</span>{% include icon.html name="mail" %}</a>
+  <button type="button" class="icon-btn js-only" data-copy-text="{{ _u }}"><span class="visually-hidden">Copy link</span>{% include icon.html name="link" %}</button>
+</div>

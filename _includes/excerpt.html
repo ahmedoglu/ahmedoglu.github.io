@@ -1,0 +1,18 @@
+{%- comment -%}
+  First real paragraph of rendered HTML (skips headings, images, short lines),
+  shortened at a word boundary. Usage: {% include excerpt.html html=post.content length=200 %}
+{%- endcomment -%}
+{%- assign _chunks = include.html | split: "<p>" -%}
+{%- assign _out = "" -%}
+{%- for _c in _chunks offset: 1 -%}
+  {%- assign _t = _c | split: "</p>" | first | strip_html | normalize_whitespace | strip -%}
+  {%- if _t.size > 60 -%}{%- assign _out = _t -%}{%- break -%}{%- endif -%}
+{%- endfor -%}
+{%- if include.length and _out.size > include.length -%}
+  {%- assign _cut = _out | truncate: include.length, "" | split: " " | pop | join: " " -%}
+  {%- assign _last = _cut | slice: -1 -%}
+  {%- if _last == "," or _last == ";" or _last == ":" or _last == "—" -%}{%- assign _n1 = _cut.size | minus: 1 -%}{%- assign _cut = _cut | slice: 0, _n1 -%}{%- endif -%}
+  {{- _cut | append: "…" -}}
+{%- else -%}
+  {{- _out -}}
+{%- endif -%}

@@ -1,0 +1,8 @@
+{%- case include.category -%}
+{%- when "journal" -%}Journal article
+{%- when "working" -%}Working paper
+{%- when "project" -%}Project report
+{%- when "thesis" -%}Thesis
+{%- when "chapter" -%}Book chapter
+{%- else -%}Paper
+{%- endcase -%}

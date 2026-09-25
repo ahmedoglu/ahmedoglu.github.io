@@ -1,0 +1,9 @@
+{%- assign _s = include.item -%}
+<article class="post-card">
+  <p class="post-card-meta"><time datetime="{{ _s.date | date: '%Y-%m-%d' }}">{{ _s.date | date: "%B %-d, %Y" }}</time>{% if _s.minutes %} · {{ _s.minutes }} min read{% endif %}</p>
+  <h3 class="post-card-title"><a href="{{ _s.url }}">{{ _s.title }}</a></h3>
+  {%- if _s.subtitle %}
+  <p class="post-card-excerpt">{{ _s.subtitle }}</p>
+  {%- endif %}
+  <p class="post-card-source">{% include icon.html name="substack" %}{{ site.newsletter.name | default: "Substack" }} on Substack</p>
+</article>

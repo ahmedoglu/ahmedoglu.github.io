@@ -1,0 +1,4 @@
+{%- assign _w = include.content | strip_html | number_of_words -%}
+{%- assign _m = _w | divided_by: 220.0 | ceil -%}
+{%- if _m < 1 -%}{%- assign _m = 1 -%}{%- endif -%}
+{{- _m }} min read

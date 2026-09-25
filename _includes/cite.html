@@ -1,0 +1,90 @@
+{%- comment -%}
+  Builds an APA-style citation and a BibTeX entry from a publication's front matter.
+  Usage: {% include cite.html p=publication id="unique-id" %}
+{%- endcomment -%}
+{%- assign p = include.p -%}
+{%- assign year = p.date | date: "%Y" -%}
+{%- assign _authors = p.authors | default: site.author.name -%}
+{%- if _authors.first == nil -%}{%- assign _authors = _authors | split: "|" -%}{%- endif -%}
+
+{%- assign bib_authors = "" | split: "" -%}
+{%- assign apa_authors = "" | split: "" -%}
+{%- for a in _authors -%}
+  {%- assign parts = a | split: " " -%}
+  {%- assign last = parts | last -%}
+  {%- assign firsts = parts | pop -%}
+  {%- capture b -%}{{ last }}, {{ firsts | join: " " }}{%- endcapture -%}
+  {%- assign bib_authors = bib_authors | push: b -%}
+  {%- assign ini = "" | split: "" -%}
+  {%- for f in firsts -%}{%- assign c = f | slice: 0 | append: "." -%}{%- assign ini = ini | push: c -%}{%- endfor -%}
+  {%- capture ap -%}{{ last }}, {{ ini | join: " " }}{%- endcapture -%}
+  {%- assign apa_authors = apa_authors | push: ap -%}
+{%- endfor -%}
+{%- assign _n = apa_authors.size -%}
+{%- if _n == 1 -%}
+  {%- assign apa_str = apa_authors | first -%}
+{%- elsif _n == 2 -%}
+  {%- assign apa_str = apa_authors | join: ", & " -%}
+{%- else -%}
+  {%- assign _head = apa_authors | pop | join: ", " -%}
+  {%- capture apa_str -%}{{ _head }}, & {{ apa_authors | last }}{%- endcapture -%}
+{%- endif -%}
+
+{%- comment -%} Citation key: lastname + year + first meaningful title word {%- endcomment -%}
+{%- assign key_last = _authors | first | split: " " | last | downcase | replace: "ğ", "g" | replace: "ü", "u" | replace: "ö", "o" | replace: "ş", "s" | replace: "ı", "i" | replace: "ç", "c" | replace: "ä", "a" | replace: "é", "e" | replace: "č", "c" | replace: "š", "s" | replace: "ž", "z" | replace: "ř", "r" -%}
+{%- assign stop = "a,an,the,of,on,in,for,and,to,from,is,why,how,what,when,with" | split: "," -%}
+{%- assign key_word = "" -%}
+{%- assign words = p.title | downcase | split: " " -%}
+{%- for w in words -%}
+  {%- assign ww = w | slugify | replace: "-", "" -%}
+  {%- unless ww == "" or stop contains ww -%}{%- assign key_word = ww -%}{%- break -%}{%- endunless -%}
+{%- endfor -%}
+{%- assign key = key_last | append: year | append: key_word -%}
+{%- assign bib_title = p.title | replace: "&", "\&" -%}
+{%- assign page_url = p.url | absolute_url -%}
+
+{%- case p.category -%}
+{%- when "journal" -%}
+  {%- capture apa -%}{{ apa_str }} ({{ year }}). {{ p.title }}. *{{ p.venue }}*.{% if p.doi %} https://doi.org/{{ p.doi }}{% endif %}{%- endcapture -%}
+  {%- capture bibtex -%}
+@article{{ '{' }}{{ key }},
+  author  = {{ '{' }}{{ bib_authors | join: " and " }}},
+  title   = {{ '{' }}{{ bib_title }}},
+  journal = {{ '{' }}{{ p.venue }}},
+  year    = {{ '{' }}{{ year }}},{% if p.doi %}
+  doi     = {{ '{' }}{{ p.doi }}},{% endif %}
+}
+  {%- endcapture -%}
+{%- when "working" -%}
+  {%- capture apa -%}{{ apa_str }} ({{ year }}). *{{ p.title }}* [Working paper]. {{ page_url }}{%- endcapture -%}
+  {%- capture bibtex -%}
+@unpublished{{ '{' }}{{ key }},
+  author = {{ '{' }}{{ bib_authors | join: " and " }}},
+  title  = {{ '{' }}{{ bib_title }}},
+  year   = {{ '{' }}{{ year }}},
+  note   = {Working paper{% if p.status %}. {{ p.status | remove: "*" | remove: "_" }}{% endif %}},
+  url    = {{ '{' }}{{ page_url }}},
+}
+  {%- endcapture -%}
+{%- else -%}
+  {%- capture apa -%}{{ apa_str }} ({{ year }}). *{{ p.title }}*{% if p.venue %} [{{ p.venue }}]{% endif %}. {{ page_url }}{%- endcapture -%}
+  {%- capture bibtex -%}
+@misc{{ '{' }}{{ key }},
+  author = {{ '{' }}{{ bib_authors | join: " and " }}},
+  title  = {{ '{' }}{{ bib_title }}},
+  year   = {{ '{' }}{{ year }}},{% if p.venue %}
+  note   = {{ '{' }}{{ p.venue }}},{% endif %}
+  url    = {{ '{' }}{{ page_url }}},
+}
+  {%- endcapture -%}
+{%- endcase -%}
+<div class="cite">
+  <div class="cite-block">
+    <div class="cite-head"><span class="cite-label">Citation (APA)</span><button type="button" class="copy-btn js-only" data-copy="#{{ include.id }}-apa">{% include icon.html name="copy" %}<span>Copy</span></button></div>
+    <p class="cite-text" id="{{ include.id }}-apa">{{ apa | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+  </div>
+  <div class="cite-block">
+    <div class="cite-head"><span class="cite-label">BibTeX</span><button type="button" class="copy-btn js-only" data-copy="#{{ include.id }}-bib">{% include icon.html name="copy" %}<span>Copy</span></button></div>
+    <pre class="bibtex"><code id="{{ include.id }}-bib">{{ bibtex | strip | escape }}</code></pre>
+  </div>
+</div>

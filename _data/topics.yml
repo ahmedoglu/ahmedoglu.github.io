@@ -1,0 +1,12 @@
+# Topics used to filter essays on the Writing page, in this order.
+# Give each essay one or more of them in its front matter, for example:
+#   topics: [Defense industry, Türkiye]
+- Defense economics
+- Defense industry
+- Innovation
+- Europe
+- Türkiye
+- Middle East & North Africa
+- Civil–military relations
+- Methods
+- Society & philosophy

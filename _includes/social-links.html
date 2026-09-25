@@ -1,0 +1,42 @@
+{%- comment -%}
+  Profile links from _config.yml. Options:
+  labels=true   show text next to icons
+  email=false   leave out the email link
+  university=true  add the university profile link
+{%- endcomment -%}
+{%- assign pr = site.profiles -%}
+<ul class="social{% if include.class %} {{ include.class }}{% endif %}">
+  {%- if include.email != false and site.author.email -%}
+  <li><a href="mailto:{{ site.author.email }}">{% include icon.html name="mail" %}<span{% unless include.labels %} class="visually-hidden"{% endunless %}>Email</span></a></li>
+  {%- endif -%}
+  {%- if pr.google_scholar -%}
+  <li><a href="{{ pr.google_scholar }}" rel="me">{% include icon.html name="scholar" %}<span{% unless include.labels %} class="visually-hidden"{% endunless %}>Google Scholar</span></a></li>
+  {%- endif -%}
+  {%- if pr.orcid -%}
+  <li><a href="{{ pr.orcid }}" rel="me">{% include icon.html name="orcid" %}<span{% unless include.labels %} class="visually-hidden"{% endunless %}>ORCID</span></a></li>
+  {%- endif -%}
+  {%- if pr.researchgate -%}
+  <li><a href="{{ pr.researchgate }}" rel="me">{% include icon.html name="researchgate" %}<span{% unless include.labels %} class="visually-hidden"{% endunless %}>ResearchGate</span></a></li>
+  {%- endif -%}
+  {%- if pr.ssrn -%}
+  <li><a href="{{ pr.ssrn }}" rel="me">{% include icon.html name="ssrn" %}<span{% unless include.labels %} class="visually-hidden"{% endunless %}>SSRN</span></a></li>
+  {%- endif -%}
+  {%- if pr.linkedin -%}
+  <li><a href="{{ pr.linkedin }}" rel="me">{% include icon.html name="linkedin" %}<span{% unless include.labels %} class="visually-hidden"{% endunless %}>LinkedIn</span></a></li>
+  {%- endif -%}
+  {%- if pr.substack -%}
+  <li><a href="{{ pr.substack }}" rel="me">{% include icon.html name="substack" %}<span{% unless include.labels %} class="visually-hidden"{% endunless %}>Substack</span></a></li>
+  {%- endif -%}
+  {%- if pr.github -%}
+  <li><a href="{{ pr.github }}" rel="me">{% include icon.html name="github" %}<span{% unless include.labels %} class="visually-hidden"{% endunless %}>GitHub</span></a></li>
+  {%- endif -%}
+  {%- if pr.bluesky -%}
+  <li><a href="{{ pr.bluesky }}" rel="me">{% include icon.html name="bluesky" %}<span{% unless include.labels %} class="visually-hidden"{% endunless %}>Bluesky</span></a></li>
+  {%- endif -%}
+  {%- if pr.x -%}
+  <li><a href="{{ pr.x }}" rel="me">{% include icon.html name="x" %}<span{% unless include.labels %} class="visually-hidden"{% endunless %}>X</span></a></li>
+  {%- endif -%}
+  {%- if include.university and site.author.profile_url -%}
+  <li><a href="{{ site.author.profile_url }}">{% include icon.html name="building" %}<span{% unless include.labels %} class="visually-hidden"{% endunless %}>University profile</span></a></li>
+  {%- endif -%}
+</ul>

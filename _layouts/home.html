@@ -1,0 +1,72 @@
+---
+layout: default
+---
+{%- assign a = site.author -%}
+<section class="hero container">
+  <div class="hero-photo">
+    {% include portrait.html %}
+  </div>
+  <div class="hero-text">
+    <p class="kicker">{{ a.role }}</p>
+    <h1 class="hero-name">{{ a.name }}</h1>
+    <p class="hero-affiliation">{% include icon.html name="building" %}<span>{{ a.department }}, <a href="{{ a.institution_url }}">{{ a.institution }}</a></span></p>
+    <div class="hero-bio">
+{{ content }}
+    </div>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="mailto:{{ a.email }}">{% include icon.html name="mail" %}<span>Email me</span></a>
+      <a class="btn" href="{{ '/cv/' | relative_url }}">{% include icon.html name="file" %}<span>CV</span></a>
+      {% include social-links.html email=false class="social-hero" %}
+    </div>
+  </div>
+</section>
+
+{%- if page.interests %}
+<section class="container section section-tight" aria-labelledby="interests-title">
+  <h2 class="section-label" id="interests-title">Research interests</h2>
+  <ul class="chips">
+    {%- for i in page.interests %}
+    <li class="chip">{{ i }}</li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endif %}
+
+<div class="container home-grid">
+  <section class="section" aria-labelledby="research-title">
+    <div class="section-head">
+      <h2 class="section-title" id="research-title">Selected research</h2>
+      <a class="more-link" href="{{ '/research/' | relative_url }}">All research{% include icon.html name="arrow-right" %}</a>
+    </div>
+    {%- assign featured = site.publications | where: "featured", true | sort: "date" | reverse -%}
+    {%- comment -%} Published work first, then working papers and the rest {%- endcomment -%}
+    {%- assign _order = "journal,chapter,working,thesis,project" | split: "," -%}
+    {%- assign _sorted = "" | split: "" -%}
+    {%- for _cat in _order -%}
+      {%- assign _in = featured | where: "category", _cat -%}
+      {%- assign _sorted = _sorted | concat: _in -%}
+    {%- endfor -%}
+    {%- for p in featured -%}{%- unless _order contains p.category -%}{%- assign _sorted = _sorted | push: p -%}{%- endunless -%}{%- endfor -%}
+    {%- assign featured = _sorted %}
+    <div class="pub-list">
+    {%- for p in featured %}
+      {% include pub-item.html p=p %}
+    {%- endfor %}
+    </div>
+  </section>
+
+  <section class="section news-section" aria-labelledby="news-title">
+    <div class="section-head">
+      <h2 class="section-title" id="news-title">News</h2>
+    </div>
+    {% include news.html limit=6 %}
+  </section>
+</div>
+
+<section class="container section" aria-labelledby="writing-title">
+  <div class="section-head">
+    <h2 class="section-title" id="writing-title">Recent writing</h2>
+    <a class="more-link" href="{{ '/writing/' | relative_url }}">All writing{% include icon.html name="arrow-right" %}</a>
+  </div>
+  {% include writing-feed.html style="cards" limit=3 %}
+</section>

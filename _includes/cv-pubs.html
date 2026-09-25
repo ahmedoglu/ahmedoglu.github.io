@@ -1,0 +1,8 @@
+{%- comment -%} Compact numbered list for the CV. Usage: {% include cv-pubs.html category="working" %} {%- endcomment -%}
+{%- assign _cats = include.category | split: "," -%}
+{%- assign _items = site.publications | where_exp: "p", "_cats contains p.category" | sort: "date" | reverse -%}
+<ol class="cv-list">
+{%- for p in _items %}
+  <li><span class="cv-list-authors">{% include authors.html authors=p.authors %}</span> ({{ p.date | date: "%Y" }}). <a href="{{ p.url | relative_url }}">{{ p.title }}</a>.{% if p.venue %} <em>{{ p.venue }}</em>.{% endif %}{% if p.status %} {{ p.status | markdownify | remove: "<p>" | remove: "</p>" | strip }}.{% endif %}{% if p.doi %} <a href="https://doi.org/{{ p.doi }}">doi:{{ p.doi }}</a>{% endif %}</li>
+{%- endfor %}
+</ol>

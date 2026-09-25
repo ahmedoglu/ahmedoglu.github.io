@@ -1,0 +1,35 @@
+# News on the home page. Newest first. Markdown works in "text".
+# "link" is optional and can be a full URL or a page on this site.
+
+- date: 2026-07-06
+  text: >-
+    My article *Turning legacy into alliance relevance: Czechia’s
+    defense-industrial imaginary and the politics of selective sovereignty*
+    is now published online in *New Perspectives*.
+  link: https://doi.org/10.1177/2336825X261466888
+
+- date: 2026-06-24
+  text: >-
+    Presented *Buying Under Fire*, my work on how the 2022 rearmament shock
+    reshaped competition in European defense procurement, at the 29th
+    International Conference on Economics and Security (ICES 2026) in Rzeszów.
+  link: /talks/ices-2026/
+
+- date: 2026-06-15
+  text: >-
+    Presented *Buying Under Fire* at the Workshop on European Defence and
+    Defence Economics at Masaryk University, Brno.
+  link: /talks/brno-workshop-2026/
+
+- date: 2025-06-27
+  text: >-
+    Presented research on the economic and strategic drivers of European
+    defense discourse at the 28th International Conference on Economics and
+    Security (ICES 2025), Ulster University, Belfast.
+  link: /talks/ices-2025/
+
+- date: 2024-10-16
+  text: >-
+    Presented *Determinants of Defence Technology Innovation* at the Military
+    Innovation Studies Summit 2024, Swedish Defence University, Stockholm.
+  link: /talks/military-innovation-studies-summit-2024/

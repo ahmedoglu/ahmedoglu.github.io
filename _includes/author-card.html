@@ -1,0 +1,8 @@
+<aside class="author-card" aria-label="About the author">
+  {% include portrait.html variant="square" size=80 %}
+  <div class="author-card-text">
+    <p class="author-card-name"><a href="{{ '/' | relative_url }}">{{ site.author.name }}</a></p>
+    <p class="author-card-bio">{{ site.author.short_bio }}</p>
+    {% include social-links.html class="social-sm" %}
+  </div>
+</aside>

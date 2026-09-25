@@ -1,0 +1,78 @@
+---
+layout: default
+---
+{%- if content contains "<h1" -%}
+  {%- assign body = content | replace: "<h5", "<h6" | replace: "</h5>", "</h6>" | replace: "<h4", "<h5" | replace: "</h4>", "</h5>" | replace: "<h3", "<h4" | replace: "</h3>", "</h4>" | replace: "<h2", "<h3" | replace: "</h2>", "</h3>" | replace: "<h1", "<h2" | replace: "</h1>", "</h2>" -%}
+{%- else -%}
+  {%- assign body = content -%}
+{%- endif -%}
+{%- assign _n2 = body | split: '<h2 id="' | size | minus: 1 -%}
+{%- assign _n3 = body | split: '<h3 id="' | size | minus: 1 -%}
+{%- if _n2 >= 3 -%}{%- assign toc_level = "h2" -%}{%- elsif _n3 >= 3 -%}{%- assign toc_level = "h3" -%}{%- else -%}{%- assign toc_level = nil -%}{%- endif -%}
+<article class="container post{% if toc_level %} has-toc{% endif %}"{% if page.lang %} lang="{{ page.lang }}"{% endif %}>
+  <header class="post-header">
+    <a class="back-link" href="{{ '/writing/' | relative_url }}" lang="en">{% include icon.html name="arrow-left" %}Writing</a>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta" lang="en">
+      <span>{% include icon.html name="calendar" %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></span>
+      <span>{% include icon.html name="clock" %}{% include reading-time.html content=content %}</span>
+      {%- if page.lang == "tr" %}<span>Türkçe</span>{% endif %}
+    </p>
+    {%- if page.topics %}
+    <ul class="topic-links" lang="en">
+      {%- for t in page.topics %}
+      <li><a class="chip chip-link" href="{{ '/writing/' | relative_url }}?topic={{ t | cgi_escape }}">{{ t }}</a></li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+  </header>
+  <div class="page-grid">
+    {%- if toc_level %}
+    <div lang="en">{% include toc.html html=body level=toc_level %}</div>
+    {%- endif %}
+    <div class="prose post-body">
+{{ body }}
+    </div>
+  </div>
+  <footer class="post-footer" lang="en">
+    {%- if page.substack %}
+    <p class="also-on">{% include icon.html name="substack" %}<span>This essay also appears in <a href="{{ page.substack }}">{{ site.newsletter.name | default: "my newsletter" }}</a> on Substack.</span></p>
+    {%- endif %}
+    {% include share.html %}
+    {% include author-card.html %}
+    <nav class="post-nav" aria-label="More essays">
+      {%- if page.previous %}
+      <a class="post-nav-link prev" href="{{ page.previous.url | relative_url }}"><span class="post-nav-label">{% include icon.html name="arrow-left" %}Older</span><span class="post-nav-title">{{ page.previous.title }}</span></a>
+      {%- else %}<span></span>{% endif %}
+      {%- if page.next %}
+      <a class="post-nav-link next" href="{{ page.next.url | relative_url }}"><span class="post-nav-label">Newer{% include icon.html name="arrow-right" %}</span><span class="post-nav-title">{{ page.next.title }}</span></a>
+      {%- endif %}
+    </nav>
+  </footer>
+</article>
+
+{%- assign related_urls = "|" -%}
+{%- assign related = "" | split: "" -%}
+{%- for t in page.topics -%}
+  {%- for p in site.posts -%}
+    {%- capture _key -%}|{{ p.url }}|{%- endcapture -%}
+    {%- if p.url != page.url and p.topics contains t -%}
+      {%- unless related_urls contains _key -%}
+        {%- assign related = related | push: p -%}
+        {%- assign related_urls = related_urls | append: p.url | append: "|" -%}
+      {%- endunless -%}
+    {%- endif -%}
+    {%- if related.size >= 3 -%}{%- break -%}{%- endif -%}
+  {%- endfor -%}
+  {%- if related.size >= 3 -%}{%- break -%}{%- endif -%}
+{%- endfor -%}
+{%- if related.size > 0 %}
+<section class="container section related" aria-labelledby="related-title">
+  <h2 class="section-title" id="related-title">Related essays</h2>
+  <div class="card-grid">
+    {%- for post in related %}
+    {% include post-card.html post=post %}
+    {%- endfor %}
+  </div>
+</section>
+{%- endif %}

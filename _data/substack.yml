@@ -1,0 +1,61 @@
+# Posts from my Substack newsletter, Defense Economics Notes (https://ahmedoglu.substack.com).
+# They appear on the Writing page and the home page together with the essays in _posts/,
+# and link to Substack. Add new posts at the top. "minutes" and "topics" are optional;
+# topics must match the names in _data/topics.yml.
+# Essays that also exist in _posts/ are not listed here; they carry a "substack:" link instead.
+
+- title: "The Arithmetic of War"
+  subtitle: "Four Equations That Explain Why Technological Superiority Doesn't Guarantee Victory"
+  date: 2026-09-24
+  url: https://ahmedoglu.substack.com/p/the-arithmetic-of-war
+  minutes: 9
+  topics: [Defense economics]
+
+- title: "The Theory of Defense Alliances"
+  subtitle: "How Do Economics and Mathematical Equations Explain Defense Alliances?"
+  date: 2026-09-22
+  url: https://ahmedoglu.substack.com/p/the-theory-of-defense-alliances
+  minutes: 13
+  topics: [Defense economics]
+
+- title: "The Pentagon’s Gosplan"
+  subtitle: "A question that sounds almost too simple: Who won the Cold War?"
+  date: 2026-08-28
+  url: https://ahmedoglu.substack.com/p/the-pentagons-gosplan
+  minutes: 6
+  topics: [Defense economics, Defense industry]
+
+- title: "The Cheapest Part Can Stop the War"
+  subtitle: "Ask any national security expert to map the chokepoints in the defense industrial base, and the top of the pyramid will almost always look the same: advanced semiconductors, lithography machines, jet engines."
+  date: 2026-08-27
+  url: https://ahmedoglu.substack.com/p/the-cheapest-part-can-stop-the-war
+  minutes: 6
+  topics: [Defense industry]
+
+- title: "Türkiye’s KAAN Fighter and International Partnership"
+  subtitle: "Türkiye spent decades facing embargo after embargo, all designed to slow the development of its defence industry."
+  date: 2026-08-06
+  url: https://ahmedoglu.substack.com/p/turkiyes-kaan-fighter-and-international
+  minutes: 6
+  topics: [Defense industry, Türkiye]
+
+- title: "What Burned in Damietta?"
+  subtitle: "On the evening of Wednesday, July 29, fire broke out aboard a floating LNG storage and regasification unit called the Energos Winter inside the port of Damietta, then spread to the gas carrier GasLog Salem moored beside it."
+  date: 2026-07-31
+  url: https://ahmedoglu.substack.com/p/what-burned-in-damietta
+  minutes: 7
+  topics: [Middle East & North Africa]
+
+- title: "Türkiye, From the Margins to the Center of the NATO Table"
+  subtitle: "How a Punished Ally Becomes an Indispensable Supplier"
+  date: 2026-07-05
+  url: https://ahmedoglu.substack.com/p/turkiye-from-the-margins-to-the-center
+  minutes: 12
+  topics: [Defense industry, Türkiye]
+
+- title: "Who Pays for Weapons?"
+  subtitle: "Is the World Going Back to War Bonds Again?"
+  date: 2026-06-08
+  url: https://ahmedoglu.substack.com/p/who-pays-for-weapons
+  minutes: 9
+  topics: [Defense economics]

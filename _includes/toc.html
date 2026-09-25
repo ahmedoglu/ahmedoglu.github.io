@@ -1,0 +1,19 @@
+{%- comment -%}
+  Contents menu built from the rendered headings (kramdown gives each an id).
+  Usage: {% include toc.html html=rendered_html level="h2" %}
+{%- endcomment -%}
+{%- capture _open -%}<{{ include.level }} id="{%- endcapture -%}
+{%- capture _close -%}</{{ include.level }}>{%- endcapture -%}
+{%- assign _parts = include.html | split: _open -%}
+<nav class="toc" aria-label="On this page">
+  <details class="toc-inner" open>
+    <summary class="toc-title">On this page</summary>
+    <ol class="toc-list">
+      {%- for _p in _parts offset: 1 %}
+      {%- assign _id = _p | split: '"' | first -%}
+      {%- assign _text = _p | split: _close | first | remove_first: _id | remove_first: '">' | strip_html | strip %}
+      <li><a href="#{{ _id }}">{{ _text }}</a></li>
+      {%- endfor %}
+    </ol>
+  </details>
+</nav>

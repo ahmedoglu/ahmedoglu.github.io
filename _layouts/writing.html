@@ -1,0 +1,45 @@
+---
+layout: default
+---
+{%- assign _total = site.posts.size | plus: site.data.substack.size -%}
+<div class="container page writing">
+  <header class="page-header">
+    <h1 class="page-title">{{ page.title }}</h1>
+    {%- if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}
+  </header>
+
+  {%- if site.newsletter.url %}
+  <aside class="newsletter" aria-label="Newsletter">
+    <span class="newsletter-icon">{% include icon.html name="substack" %}</span>
+    <div class="newsletter-text">
+      <p class="newsletter-title">{{ site.newsletter.name }}</p>
+      <p>My Substack newsletter on defense economics, military strategy, industrial capacity, and geopolitics. Subscribe to get new posts by email.</p>
+    </div>
+    <a class="btn btn-primary" href="{{ site.newsletter.subscribe | default: site.newsletter.url }}">Subscribe</a>
+  </aside>
+  {%- endif %}
+
+  <div class="filters js-only">
+    <label class="search-field">
+      {% include icon.html name="search" %}
+      <span class="visually-hidden">Search essays</span>
+      <input type="search" id="post-search" placeholder="Search {{ _total }} essays and posts" autocomplete="off">
+    </label>
+    <div class="chip-row" role="group" aria-label="Filter by topic">
+      <button type="button" class="chip chip-btn" data-topic="" aria-pressed="true">All<span class="chip-count">{{ _total }}</span></button>
+      {%- for t in site.data.topics %}
+        {%- assign _n = site.posts | where_exp: "p", "p.topics contains t" | size -%}
+        {%- assign _ns = site.data.substack | where_exp: "s", "s.topics contains t" | size -%}
+        {%- assign _n = _n | plus: _ns %}
+        {%- if _n > 0 %}
+      <button type="button" class="chip chip-btn" data-topic="{{ t }}" aria-pressed="false">{{ t }}<span class="chip-count">{{ _n }}</span></button>
+        {%- endif %}
+      {%- endfor %}
+    </div>
+    <p class="filter-status" role="status" aria-live="polite"></p>
+  </div>
+
+  {% include writing-feed.html style="rows" %}
+
+  <p class="no-results" hidden>No essays match your search. <button type="button" class="link-btn" data-reset-filters>Show all essays</button></p>
+</div>

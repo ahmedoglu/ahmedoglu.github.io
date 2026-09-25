@@ -1,0 +1,12 @@
+{%- comment -%} Responsive portrait. Usage: {% include portrait.html variant="square" size=96 %} {%- endcomment -%}
+{%- if include.variant == "square" -%}
+<picture class="portrait portrait-square{% if include.class %} {{ include.class }}{% endif %}">
+  <source srcset="{{ '/images/portrait-square-256.webp' | relative_url }}" type="image/webp">
+  <img src="{{ '/images/portrait-square-256.jpg' | relative_url }}" width="{{ include.size | default: 96 }}" height="{{ include.size | default: 96 }}" alt="{{ include.alt | default: '' }}" loading="lazy" decoding="async">
+</picture>
+{%- else -%}
+<picture class="portrait{% if include.class %} {{ include.class }}{% endif %}">
+  <source srcset="{{ '/images/portrait.webp' | relative_url }}" type="image/webp">
+  <img src="{{ '/images/portrait.jpg' | relative_url }}" width="560" height="672" alt="Portrait of {{ site.author.name }}" fetchpriority="high" decoding="async">
+</picture>
+{%- endif -%}

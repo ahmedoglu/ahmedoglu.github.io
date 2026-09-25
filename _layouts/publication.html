@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article class="container narrow publication">
+  <header class="pub-header">
+    <a class="back-link" href="{{ '/research/' | relative_url }}">{% include icon.html name="arrow-left" %}Research</a>
+    <p class="pub-kicker"><span class="badge badge-{{ page.category }}">{% include pub-label.html category=page.category %}</span><span class="pub-year">{{ page.date | date: "%Y" }}</span>{% if page.status %}<span class="pub-status">{{ page.status | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>{% endif %}</p>
+    <h1 class="pub-page-title">{{ page.title }}</h1>
+    <p class="pub-authors pub-authors-lg">{% include authors.html authors=page.authors %}</p>
+    {%- if page.venue %}<p class="pub-venue-lg">{{ page.venue }}</p>{% endif %}
+    <div class="pub-actions">
+      {%- if page.doi %}<a class="btn btn-primary" href="https://doi.org/{{ page.doi }}">Read the article{% include icon.html name="external" %}</a>{% endif %}
+      {%- if page.pdf %}<a class="btn" href="{% include url.html u=page.pdf %}">{% include icon.html name="download" %}PDF</a>{% endif %}
+      {%- if page.slides %}<a class="btn" href="{% include url.html u=page.slides %}">{% include icon.html name="presentation" %}Slides</a>{% endif %}
+      {%- if page.link %}<a class="btn" href="{% include url.html u=page.link %}">{% include icon.html name="external" %}Link</a>{% endif %}
+    </div>
+  </header>
+
+  <section class="pub-section" aria-labelledby="abstract-title">
+    <h2 id="abstract-title">Abstract</h2>
+    <div class="prose">
+{{ content }}
+    </div>
+    {%- if page.keywords %}
+    <ul class="chips chips-sm" aria-label="Keywords">
+      {%- for k in page.keywords %}<li class="chip">{{ k }}</li>{% endfor %}
+    </ul>
+    {%- endif %}
+  </section>
+
+  <section class="pub-section" aria-labelledby="cite-title">
+    <h2 id="cite-title">How to cite</h2>
+    {% include cite.html p=page id="this" %}
+  </section>
+</article>

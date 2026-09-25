@@ -1,0 +1,8 @@
+{%- comment -%} Usage: {% include pub-list.html category="journal,chapter" %} {%- endcomment -%}
+{%- assign _cats = include.category | split: "," -%}
+{%- assign _items = site.publications | where_exp: "p", "_cats contains p.category" | sort: "date" | reverse -%}
+<div class="pub-list">
+{%- for p in _items %}
+{% include pub-item.html p=p %}
+{%- endfor %}
+</div>

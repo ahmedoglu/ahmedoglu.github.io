@@ -1,0 +1,22 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
+    <nav class="site-nav" aria-label="Main">
+      <button class="nav-toggle icon-btn" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="visually-hidden">Menu</span>{% include icon.html name="menu" class="icon-open" %}{% include icon.html name="close" class="icon-close" %}
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        {%- for link in site.data.navigation.main -%}
+          {%- assign target = site.pages | where: "url", link.url | first -%}
+          {%- if target -%}
+            {%- assign prefix = page.url | slice: 0, link.url.size -%}
+            <li><a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% elsif prefix == link.url %} class="is-section"{% endif %}>{{ link.title }}</a></li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </nav>
+    <button class="theme-toggle icon-btn" type="button" aria-label="Switch between light and dark theme" title="Light / dark theme">
+      {% include icon.html name="moon" class="icon-moon" %}{% include icon.html name="sun" class="icon-sun" %}
+    </button>
+  </div>
+</header>
