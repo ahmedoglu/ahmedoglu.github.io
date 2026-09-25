@@ -14,16 +14,15 @@ redirect_from:
 class: research
 toc: true
 lead: >-
-  My work sits at the intersection of defense procurement, innovation policy,
-  and institutional design, with a focus on how Europe can coordinate complex,
-  multi-country programs efficiently while still spurring innovation and
-  safeguarding strategic information.
+  I study the economics of European defense: who pays for it, how it is
+  bought, and how allies coordinate it. My work focuses on procurement,
+  alliance burden sharing, and the design of European defense markets.
 description: >-
   Publications, working papers, and research projects by Mümin Ahmedoğlu on
-  EU defense procurement, defense innovation, and strategic autonomy.
+  defense procurement, alliance burden sharing, and European defense cooperation.
 ---
 
-My approach integrates contract theory, econometric modeling, and data-driven analysis to bridge theoretical insights with policy relevance. Beyond my doctoral work, I have studied comparative defense policy, the civilian adaptation of military technologies (UAVs), and the global dynamics of defense spending and innovation. My goal is to contribute to a more coherent understanding of how analytical and economic perspectives can improve defense cooperation and policy design in Europe.
+My work combines three kinds of tools. Causal inference on administrative data, such as tender records and NATO’s annual spending reports, shows how rules and shocks change what governments actually do. Formal models, from public-good models of alliances to contract and game theory, explain why they respond as they do. Computational text analysis traces how European institutions talk about defense. Alongside the dissertation, I work on security discourse in EU institutions, on defense pooling among European states, and on the defense-industrial strategies of smaller states such as Czechia and Türkiye. My goal is to show how economic analysis can improve defense cooperation and policy design in Europe.
 
 An up-to-date list of my work is also available on [Google Scholar](https://scholar.google.com/citations?hl=en&user=KxX2plAAAAAJ) and [ORCID](https://orcid.org/0009-0006-2029-8133).
 
@@ -72,14 +71,14 @@ Presented at [ICES 2025](/talks/ices-2025/), Ulster University, Belfast. Related
 
 ## Research agenda
 
-- **Defense Procurement & Multi-Goal Design.** How EU buyers balance three objectives in joint programs—security of military/strategic information, innovation performance, and economic growth/competitiveness—and how procurement instruments (PCP, PIS, Innovation Partnerships) can be structured to deliver on all three.
-- **Coordination under Asymmetry (EDF, PESCO).** How industrial capability gaps between small and large member states and divergent budget logics (NATO 2%, EDA benchmarks) shape collaboration, burden sharing, and “spend more, spend better, spend European.”
-- **Common-Agency & Contract Theory for Joint Programs.** Applying common-agency and mechanism-design approaches to model multi-principal procurement (follow-on contracts, bundling vs. unbundling R&D/production, award criteria, negotiation vs. auction) and mitigate hold-up, lock-in, and foreclosure risks.
-- **Innovation Effects of Public Procurement.** When and how public procurement triggers firm-level innovation (vs. incremental diffusion), the role of buyer capabilities, and how design choices (technology-neutral vs. specific tenders) alter incentives.
-- **Strategic Investment & Industrial Base.** The political economy of sustained, multi-year defense investment and joint procurement as pillars of Europe’s defense-industrial capacity and strategic autonomy.
+- **Procurement and market design.** How procurement rules, procedures, and exemptions shape competition, supplier selection, and innovation in European defense markets, and how the 2022 rearmament shock changed them.
+- **Alliance burden sharing.** Who pays for collective defense, how spending targets backed by conditional protection change what allies spend and report, and how the leading power responds.
+- **Defense cooperation and integration.** How the European Defence Fund, PESCO, and other EU and NATO pooling arrangements organize cooperation between large and small states, and who leads it.
+- **Security discourse.** How EU institutions frame defense in terms of threat, sovereignty, and capability, and how crises change that language.
+- **Smaller states in the defense-industrial system.** How countries such as Czechia and Türkiye build niches, exports, and alliance relevance on their industrial bases.
 {: .agenda}
 
-**Methods:** Contract/game theory, multi-attribute optimization for procurement trade-offs, and empirical analysis (panel econometrics on EDF/PESCO data; comparative case studies such as Eurodrone), complemented by text-as-data on institutional discourse.
+**Methods:** Causal inference with administrative data, including difference-in-differences and bunching designs; formal models of public goods, contracts, and games; computational text analysis; network and structural analysis; and comparative case studies.
 {: .methods}
 
 ## Other work
