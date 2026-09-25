@@ -21,11 +21,9 @@ description: >-
 ### Ph.D. in Business Decisions and Analytics
 University of Vienna · Vienna, Austria · Oct 2025–present
 
-Dissertation topic: *Coordination Problems in EU Defense Procurement: A Common Agency Analysis*
+Dissertation: European defense procurement after the 2022 rearmament shock, and what it means for competition, innovation, firms, and cooperation in EU defense projects
 
 Supervisors: Prof. Dr. Oliver Fabel and Ass.-Prof. Dr. Dmitriy Knyazev
-
-My doctoral research focuses on the coordination and efficiency of defense procurement in the European Union, analyzing how industrial asymmetries, sovereignty constraints, and institutional mechanisms—such as the European Defence Fund (EDF) and PESCO—influence cooperation, innovation, and policy outcomes.
 
 <details markdown="1">
 <summary>Doctoral coursework</summary>
@@ -83,7 +81,7 @@ Introduction to Probability · Introduction to Statistics · Statistical Linear 
 ### Doctoral Researcher, Economics of Defense Procurement
 University of Vienna, Department of Business Decisions and Analytics · Vienna, Austria · Oct 2025–present
 
-I conduct research on the coordination and efficiency of defense procurement in the European Union, focusing on how industrial asymmetries, sovereignty constraints, and institutional mechanisms—such as the European Defence Fund (EDF) and PESCO—influence cooperation, innovation, and policy outcomes. My work combines contract theory, game-theoretic modeling, and econometric analysis of EDF project data and case studies (e.g., Eurodrone) to develop policy-relevant insights for improving coordination and institutional design in European defense.
+I research the economics of defense procurement, currently how Europe’s post-2022 rearmament is changing competition, supplier selection, and cooperation in European defense procurement, using EU tender records and firm-level data. I also teach Human Resource Management in the Bachelor program in Business Administration.
 
 ### Graduate Research Assistant, SYNCPOL (ERC Advanced Grant)
 Ludwig-Maximilians-Universität München (LMU) · Munich, Germany · Apr 2025–Oct 2025

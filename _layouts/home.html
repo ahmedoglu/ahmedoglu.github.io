@@ -10,16 +10,34 @@ layout: default
     <p class="kicker">{{ a.role }}</p>
     <h1 class="hero-name">{{ a.name }}</h1>
     <p class="hero-affiliation">{% include icon.html name="building" %}<span>{{ a.department }}, <a href="{{ a.institution_url }}">{{ a.institution }}</a></span></p>
+    {%- assign _about = content | split: "<h3" %}
     <div class="hero-bio">
-{{ content }}
+{{ _about[0] }}
     </div>
     <div class="hero-actions">
       <a class="btn btn-primary" href="mailto:{{ a.email }}">{% include icon.html name="mail" %}<span>Email me</span></a>
       <a class="btn" href="{{ '/cv/' | relative_url }}">{% include icon.html name="file" %}<span>CV</span></a>
       {% include social-links.html email=false class="social-hero" %}
     </div>
+    {%- if page.bio_third_person %}
+    <details class="bio-details">
+      <summary>Short bio for introductions</summary>
+      <div class="bio-box">
+        <p id="bio-third-person">{{ page.bio_third_person | strip }}</p>
+        <button type="button" class="copy-btn js-only" data-copy="#bio-third-person">{% include icon.html name="copy" %}<span>Copy</span></button>
+      </div>
+    </details>
+    {%- endif %}
   </div>
 </section>
+
+{%- if _about.size > 1 %}
+<section class="container about-grid" aria-label="About">
+  {%- for _block in _about offset: 1 %}
+  <div class="about-col"><h3{{ _block }}</div>
+  {%- endfor %}
+</section>
+{%- endif %}
 
 {%- if page.interests %}
 <section class="container section section-tight" aria-labelledby="interests-title">

@@ -37,10 +37,12 @@ An up-to-date list of my work is also available on [Google Scholar](https://scho
 
 ## Current projects
 
-### Coordination Problems in EU Defense Procurement: A Common Agency and Contract Theory Analysis
-Doctoral research · University of Vienna · Supervised by Prof. Dr. Oliver Fabel and Ass.-Prof. Dr. Dmitriy Knyazev
+### European Defense Procurement after the 2022 Rearmament Shock
+PhD dissertation · University of Vienna · Supervised by Prof. Dr. Oliver Fabel and Ass.-Prof. Dr. Dmitriy Knyazev
 
-My doctoral research investigates how European Union member states coordinate defense procurement and spending within institutional frameworks such as the European Defence Fund (EDF) and PESCO. The project applies common agency and contract theory to examine how industrial asymmetries, sovereignty constraints, and divergent national interests shape efficiency, innovation, and policy outcomes in joint defense projects. Combining theoretical modeling with empirical analysis of EDF project data and case studies (e.g., Eurodrone), the research seeks to develop evidence-based insights for improving coordination and institutional design in European defense cooperation.
+My dissertation studies how Europe’s rearmament after Russia’s full-scale invasion of Ukraine is changing defense procurement, and what these changes mean for innovation, for firms, and for cooperation in EU defense projects. Working with procurement records from across Europe, firm-level data on contract winners, and the networks of firms in EU defense programs such as the European Defence Fund, it asks who wins defense contracts, through which procedures, and with what consequences for competition and for Europe’s defense-industrial base. The empirical work uses difference-in-differences designs around the 2022 shock and firm-level matching of suppliers.
+
+Related working paper: [Buying Under Fire: How the 2022 Rearmament Shock Reshaped Competition in European Defense Procurement](/research/buying-under-fire/)
 
 ### From the Periphery to the Centre? Czech and Turkish Ambition in NATO’s Airspace Industry
 Joint project with [Dr. Bohuslav Pernica](https://www.muni.cz/en/people/161932-bohuslav-pernica)
@@ -48,6 +50,11 @@ Joint project with [Dr. Bohuslav Pernica](https://www.muni.cz/en/people/161932-b
 This comparative study assesses the ambitions of Czechia and Turkey within NATO’s airspace industry, particularly focusing on their respective military training jets—the L-39 NG and TAI Hürjet. The research explores how each country leverages its industrial base and government support to develop, produce, and export these advanced pilot training jets designed for the 4th–5th generation supersonic Multi Role Combat Aircraft (MRCA). The study includes a detailed analysis of the involvement and strategic support by both governments in these projects, providing insights into how smaller NATO members can influence and integrate into the broader alliance’s defense capabilities.
 
 Working paper: [Comparative National Strategies in Military Trainer Jet Development](/research/l39ng-hurjet-trainer-jets/)
+
+### A Dynamic Public-Good Model of European Defense
+Next project · In preparation
+
+This project models European defense as a dynamic public good. Member states invest over time in shared military capabilities that depreciate, and each state’s contribution benefits all allies. The model asks how free-riding shapes who contributes, how much, and when, and what this implies for burden-sharing and for the design of European defense instruments.
 
 ## Completed projects
 

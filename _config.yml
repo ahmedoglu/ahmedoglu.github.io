@@ -5,8 +5,9 @@
 
 title: Mümin Ahmedoğlu
 description: >-
-  Doctoral researcher at the University of Vienna working on the economics of
-  EU defense procurement, innovation, and strategic autonomy.
+  Doctoral researcher at the University of Vienna working on defense economics
+  and market design in European defense: procurement, rearmament, and the
+  defense-industrial base.
 url: https://ahmedoglu.github.io
 baseurl: ""
 repository: ahmedoglu/ahmedoglu.github.io
@@ -29,8 +30,9 @@ author:
     - Technical University of Munich
     - Middle East Technical University
   short_bio: >-
-    Doctoral researcher at the University of Vienna studying the economics of
-    EU defense procurement, innovation, and strategic autonomy.
+    Doctoral researcher at the University of Vienna working on defense
+    economics and market design in European defense, from procurement and
+    rearmament to the defense-industrial base.
   # Put a PDF of your CV in /files/ and write its path here, e.g. /files/cv.pdf
   # to show a "Download PDF" button on the CV page.
   cv_pdf:
