@@ -85,7 +85,8 @@
 {%- if page.url == "/" -%}
   {%- assign same = "" | split: "" -%}
   {%- for p in site.profiles -%}{%- if p[1] -%}{%- assign same = same | push: p[1] -%}{%- endif -%}{%- endfor -%}
-  {%- if site.author.profile_url -%}{%- assign same = same | push: site.author.profile_url -%}{%- endif %}
+  {%- if site.author.profile_url -%}{%- assign same = same | push: site.author.profile_url -%}{%- endif -%}
+  {%- if site.author.affiliation_url -%}{%- assign same = same | push: site.author.affiliation_url -%}{%- endif %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

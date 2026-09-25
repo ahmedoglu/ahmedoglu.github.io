@@ -23,6 +23,8 @@ author:
   department: Department of Business Decisions and Analytics
   institution: University of Vienna
   institution_url: https://www.univie.ac.at/en/
+  # Where the "University of Vienna" name links to on the site (your u:cris research profile)
+  affiliation_url: "https://ucrisportal.univie.ac.at/en/persons/m%C3%BCmin-ahmedoglu/"
   profile_url: https://ufind.univie.ac.at/de/person.html?id=1020207
   location: Vienna, Austria
   email: muemin.ahmedoglu@univie.ac.at

@@ -2,7 +2,7 @@
   <div class="container footer-inner">
     <div class="footer-id">
       <p class="footer-name">{{ site.author.name }}</p>
-      <p class="footer-role">{{ site.author.role }}, {{ site.author.department }}<br><a href="{{ site.author.institution_url }}">{{ site.author.institution }}</a> · {{ site.author.location }}</p>
+      <p class="footer-role">{{ site.author.role }}, {{ site.author.department }}<br><a href="{{ site.author.affiliation_url | default: site.author.institution_url }}">{{ site.author.institution }}</a> · {{ site.author.location }}</p>
     </div>
     {% include social-links.html class="footer-social" university=true %}
   </div>

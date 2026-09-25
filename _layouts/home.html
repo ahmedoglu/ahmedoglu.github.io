@@ -9,7 +9,7 @@ layout: default
   <div class="hero-text">
     <p class="kicker">{{ a.role }}</p>
     <h1 class="hero-name">{{ a.name }}</h1>
-    <p class="hero-affiliation">{% include icon.html name="building" %}<span>{{ a.department }}, <a href="{{ a.institution_url }}">{{ a.institution }}</a></span></p>
+    <p class="hero-affiliation">{% include icon.html name="building" %}<span>{{ a.department }}, <a href="{{ a.affiliation_url | default: a.institution_url }}">{{ a.institution }}</a></span></p>
     {%- assign _about = content | split: "<h3" %}
     <div class="hero-bio">
 {{ _about[0] }}
