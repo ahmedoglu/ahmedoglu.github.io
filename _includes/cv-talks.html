@@ -1,6 +1,6 @@
 {%- assign _items = site.talks | sort: "date" | reverse -%}
 <ol class="cv-list">
 {%- for t in _items %}
-  <li><a href="{{ t.url | relative_url }}">{{ t.title }}</a>. {{ t.event }}{% if t.host %}, {{ t.host }}{% endif %}, {{ t.location }}, {{ t.date | date: "%B %Y" }}.</li>
+  <li><a href="{{ t.url | relative_url }}">{{ t.title }}</a>. {% if t.link %}<a href="{{ t.link }}">{{ t.event }}</a>{% else %}{{ t.event }}{% endif %}{% if t.host %}, {{ t.host }}{% endif %}, {{ t.location }}, {{ t.date | date: "%B %Y" }}.</li>
 {%- endfor %}
 </ol>

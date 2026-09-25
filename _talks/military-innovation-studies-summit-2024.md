@@ -5,6 +5,7 @@ event: Military Innovation Studies Summit 2024
 host: Swedish Defence University
 location: Landqvist, Stockholm, Sweden
 date: 2024-10-16
+link: https://www.fhs.se/en/swedish-defence-university/events/2024-05-31-military-innovation-studies-summit-2024.html
 redirect_from:
   - /talks/2014-03-01-talk-3
 ---

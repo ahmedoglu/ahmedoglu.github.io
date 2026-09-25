@@ -108,6 +108,7 @@ location: City, Country
 date: 2026-06-20                      # used for sorting
 when: June 20–22, 2026                # optional; shown instead of the date
 link: https://conference-website.org  # optional event page
+link_label: Conference programme      # optional button text (default: Event page)
 slides: /files/slides-ices-2026.pdf   # optional
 paper: /research/some-paper/          # optional link to a related paper
 ---

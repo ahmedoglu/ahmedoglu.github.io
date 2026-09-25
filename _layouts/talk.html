@@ -7,7 +7,7 @@ layout: default
     <p class="kicker">{{ page.type }}</p>
     <h1 class="talk-page-title">{{ page.title }}</h1>
     <ul class="talk-facts">
-      <li>{% include icon.html name="presentation" %}<span>{{ page.event }}{% if page.host %}, {{ page.host }}{% endif %}</span></li>
+      <li>{% include icon.html name="presentation" %}<span>{% if page.link %}<a href="{{ page.link }}">{{ page.event }}</a>{% else %}{{ page.event }}{% endif %}{% if page.host %}, {{ page.host }}{% endif %}</span></li>
       <li>{% include icon.html name="map-pin" %}<span>{{ page.location }}</span></li>
       <li>{% include icon.html name="calendar" %}<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{% if page.when %}{{ page.when }}{% else %}{{ page.date | date: "%B %-d, %Y" }}{% endif %}</time></li>
     </ul>
@@ -15,7 +15,7 @@ layout: default
     <div class="pub-actions">
       {%- if page.slides %}<a class="btn" href="{% include url.html u=page.slides %}">{% include icon.html name="presentation" %}Slides</a>{% endif %}
       {%- if page.paper %}<a class="btn" href="{% include url.html u=page.paper %}">{% include icon.html name="file" %}Related paper</a>{% endif %}
-      {%- if page.link %}<a class="btn" href="{% include url.html u=page.link %}">{% include icon.html name="external" %}Event page</a>{% endif %}
+      {%- if page.link %}<a class="btn" href="{% include url.html u=page.link %}">{% include icon.html name="external" %}{{ page.link_label | default: "Event page" }}</a>{% endif %}
     </div>
     {%- endif %}
   </header>
