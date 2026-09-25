@@ -37,12 +37,15 @@ An up-to-date list of my work is also available on [Google Scholar](https://scho
 
 ## Current projects
 
-### European Defense Procurement after the 2022 Rearmament Shock
+### Rearmament, Procurement, and Burden Sharing in European Defense
 PhD dissertation · University of Vienna · Supervised by Prof. Dr. Oliver Fabel and Ass.-Prof. Dr. Dmitriy Knyazev
 
-My dissertation studies how Europe’s rearmament after Russia’s full-scale invasion of Ukraine is changing defense procurement, and what these changes mean for innovation, for firms, and for cooperation in EU defense projects. Working with procurement records from across Europe, firm-level data on contract winners, and the networks of firms in EU defense programs such as the European Defence Fund, it asks who wins defense contracts, through which procedures, and with what consequences for competition and for Europe’s defense-industrial base. The empirical work uses difference-in-differences designs around the 2022 shock and firm-level matching of suppliers.
+My dissertation studies how Europe’s rearmament is changing the way allies pay for defense and the way they buy it, and what these changes mean for competition, innovation, firms, and burden sharing. The first paper, [*Buying Under Fire*](/research/buying-under-fire/), works with procurement records from across Europe, firm-level data on contract winners, and the networks of firms in EU defense programs such as the European Defence Fund. It asks who wins defense contracts after Russia’s full-scale invasion of Ukraine, through which procedures, and with what consequences for competition and for Europe’s defense-industrial base. The second paper, *Paying to the Line*, turns from buying to paying and studies how NATO’s spending targets shape what allies spend and report.
 
-Related working paper: [Buying Under Fire: How the 2022 Rearmament Shock Reshaped Competition in European Defense Procurement](/research/buying-under-fire/)
+### Paying to the Line: Spending Targets, Conditional Protection, and Burden Sharing in NATO
+Second dissertation paper · In preparation
+
+Since 2014, NATO has asked each ally to spend 2% of GDP on defense, and since the 2025 Hague summit 3.5% on core defense by 2035, while the United States has increasingly signaled that its protection depends on meeting these targets. Building on a dynamic public-good model of alliances in which the leading power both sets the rule and contributes to defense, the paper treats the target as a threshold backed by the threat of conditional protection. It asks who pays for the alliance, whether allies meet the target by spending more or by counting more, and how the leading power’s own spending responds. The evidence combines a new real-time dataset built from NATO’s annual reports since 2014, which records what each ally planned to spend and what it actually spent, with independent SIPRI figures and bunching methods from research on fiscal rules. The paper will also pre-register predictions for NATO’s 2029 review of the 3.5% target.
 
 ### From the Periphery to the Centre? Czech and Turkish Ambition in NATO’s Airspace Industry
 Joint project with [Dr. Bohuslav Pernica](https://www.muni.cz/en/people/161932-bohuslav-pernica)
@@ -50,11 +53,6 @@ Joint project with [Dr. Bohuslav Pernica](https://www.muni.cz/en/people/161932-b
 This comparative study assesses the ambitions of Czechia and Turkey within NATO’s airspace industry, particularly focusing on their respective military training jets—the L-39 NG and TAI Hürjet. The research explores how each country leverages its industrial base and government support to develop, produce, and export these advanced pilot training jets designed for the 4th–5th generation supersonic Multi Role Combat Aircraft (MRCA). The study includes a detailed analysis of the involvement and strategic support by both governments in these projects, providing insights into how smaller NATO members can influence and integrate into the broader alliance’s defense capabilities.
 
 Working paper: [Comparative National Strategies in Military Trainer Jet Development](/research/l39ng-hurjet-trainer-jets/)
-
-### A Dynamic Public-Good Model of European Defense
-Next project · In preparation
-
-This project models European defense as a dynamic public good. Member states invest over time in shared military capabilities that depreciate, and each state’s contribution benefits all allies. The model asks how free-riding shapes who contributes, how much, and when, and what this implies for burden-sharing and for the design of European defense instruments.
 
 ## Completed projects
 

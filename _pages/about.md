@@ -17,6 +17,7 @@ interests:
   - European rearmament
   - EU defense cooperation (EDF, PESCO)
   - Dynamic public goods
+  - Alliance burden sharing
   - Securitization & strategic autonomy
   - Causal inference
   - Text as data
@@ -25,19 +26,19 @@ interests:
 bio_third_person: >-
   Mümin Ahmedoğlu is a doctoral researcher in the Department of Business
   Decisions and Analytics at the University of Vienna. He works in defense
-  economics, with a focus on procurement and market design in European
-  defense. His recent work examines how the 2022 rearmament shock reshaped
+  economics, with a focus on procurement, burden sharing, and market
+  design in European defense. His recent work examines how the 2022 rearmament shock reshaped
   competition in European defense procurement. Before academia, he worked on unmanned aerial
   vehicle programs at Baykar and STM in Türkiye. He holds an M.Sc. in
   Management and Technology from the Technical University of Munich and a
   B.Sc. in Industrial Engineering from Middle East Technical University.
 ---
 
-I study how Europe buys, builds, and coordinates its defense. As a doctoral researcher at the University of Vienna, I work on defense economics and market design in European defense, with a focus on procurement: who wins defense contracts, through which procedures, and what Europe’s largest defense build-up since the Cold War means for competition, innovation, and the defense-industrial base.
+I study how Europe buys, builds, and coordinates its defense. As a doctoral researcher at the University of Vienna, I work on defense economics and market design in European defense, with a focus on procurement and burden sharing: who pays for the alliance, who wins defense contracts, and what Europe’s largest defense build-up since the Cold War means for competition, innovation, and the defense-industrial base.
 
 ### Research
 
-My work draws on two kinds of evidence: contracts and words. Using tender records from across Europe, I find that after Russia’s full-scale invasion of Ukraine, defense buyers turned not to more competition but to negotiated sole-source awards for incumbent prime contractors. Using text analysis of more than six million sentences, I trace how EU institutions translate the same crises into different languages of threat, sovereignty, and capability. Other projects study defense pooling among European states and Czechia’s defense-industrial strategy. Next, I am developing a dynamic public-good model of European defense, in which allies invest over time in shared capabilities that depreciate, to study how free-riding shapes who contributes, how much, and when.
+My work draws on two kinds of evidence: contracts and words. Using tender records from across Europe, I find that after Russia’s full-scale invasion of Ukraine, defense buyers turned not to more competition but to negotiated sole-source awards for incumbent prime contractors. Using text analysis of more than six million sentences, I trace how EU institutions translate the same crises into different languages of threat, sovereignty, and capability. Other projects study defense pooling among European states and Czechia’s defense-industrial strategy. My next paper, *Paying to the Line*, uses a dynamic public-good model of alliances to study NATO’s spending targets as a threshold backed by conditional U.S. protection, and asks whether allies meet them by spending more or by counting more.
 
 ### Background
 

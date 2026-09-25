@@ -21,7 +21,7 @@ description: >-
 ### Ph.D. in Business Decisions and Analytics
 University of Vienna · Vienna, Austria · Oct 2025–present
 
-Dissertation: European defense procurement after the 2022 rearmament shock, and what it means for competition, innovation, firms, and cooperation in EU defense projects
+Dissertation: how Europe’s rearmament is changing the way allies pay for and buy defense, and what this means for competition, innovation, firms, and burden sharing
 
 Supervisors: Prof. Dr. Oliver Fabel and Ass.-Prof. Dr. Dmitriy Knyazev
 
@@ -81,7 +81,7 @@ Introduction to Probability · Introduction to Statistics · Statistical Linear 
 ### Doctoral Researcher, Economics of Defense Procurement
 University of Vienna, Department of Business Decisions and Analytics · Vienna, Austria · Oct 2025–present
 
-I research the economics of defense procurement, currently how Europe’s post-2022 rearmament is changing competition, supplier selection, and cooperation in European defense procurement, using EU tender records and firm-level data. I also teach Human Resource Management in the Bachelor program in Business Administration.
+I research the economics of defense procurement and alliance burden sharing: how Europe’s post-2022 rearmament is changing competition and supplier selection in defense procurement, and how NATO’s spending targets shape what allies spend and report. I also teach Human Resource Management in the Bachelor program in Business Administration.
 
 ### Graduate Research Assistant, SYNCPOL (ERC Advanced Grant)
 Ludwig-Maximilians-Universität München (LMU) · Munich, Germany · Apr 2025–Oct 2025
@@ -95,6 +95,10 @@ I worked on the ERC-funded project SYNCPOL: Synchronized Politics, where I model
 ## Working papers
 
 {% include cv-pubs.html category="working" %}
+
+## Work in progress
+
+- *Paying to the Line: Spending Targets, Conditional Protection, and Burden Sharing in NATO*. Second dissertation paper, in preparation.
 
 ## Presentations
 
