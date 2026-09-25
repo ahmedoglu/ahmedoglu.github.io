@@ -21,7 +21,7 @@
 {%- if page.image -%}
   {%- assign seo_image = page.image | absolute_url -%}
 {%- else -%}
-  {%- assign seo_image = "/images/portrait-square.jpg" | absolute_url -%}
+  {%- assign seo_image = "/images/share-card.jpg" | absolute_url -%}
 {%- endif -%}
 {%- if page.collection == "posts" -%}{%- assign og_type = "article" -%}
 {%- elsif page.url == "/" -%}{%- assign og_type = "profile" -%}
@@ -43,7 +43,9 @@
 <meta property="og:url" content="{{ canonical }}">
 <meta property="og:image" content="{{ seo_image }}">
 {%- unless page.image %}
-<meta property="og:image:alt" content="Portrait of {{ site.author.name | escape }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ site.author.name | escape }} speaking at a podium">
 {%- endunless %}
 <meta property="og:locale" content="{% if page.lang == 'tr' %}tr_TR{% else %}en_US{% endif %}">
 {%- if og_type == "article" %}
@@ -53,7 +55,7 @@
 <meta property="article:tag" content="{{ t | escape }}">
 {%- endfor %}
 {%- endif %}
-<meta name="twitter:card" content="{% if page.image %}summary_large_image{% else %}summary{% endif %}">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ og_title | escape }}">
 <meta name="twitter:description" content="{{ seo_desc | escape }}">
 <meta name="twitter:image" content="{{ seo_image }}">

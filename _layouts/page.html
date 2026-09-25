@@ -7,6 +7,14 @@ layout: default
     <h1 class="page-title">{{ page.title }}</h1>
     {%- if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}
   </header>
+  {%- if page.banner %}
+  <figure class="page-banner">
+    <picture>
+      {%- if page.banner_webp %}<source srcset="{{ page.banner_webp | relative_url }}" type="image/webp">{% endif %}
+      <img src="{{ page.banner | relative_url }}" alt="{{ page.banner_alt | escape }}" width="1600" height="900" decoding="async"{% if page.banner_position %} style="object-position: {{ page.banner_position }}"{% endif %}>
+    </picture>
+  </figure>
+  {%- endif %}
   <div class="page-grid">
     {%- if page.toc %}
     {% include toc.html html=content level="h2" %}
