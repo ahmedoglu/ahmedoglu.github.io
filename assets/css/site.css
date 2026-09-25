@@ -256,7 +256,7 @@ main:focus { outline: none; }
   margin-left: 0; padding: .15em 0 .15em 1.25em; border-left: 3px solid var(--accent);
   color: var(--text-2); font-style: italic;
 }
-.prose :where(img) { display: block; margin: 1.75em auto; border-radius: var(--radius-sm); }
+.prose :where(img) { display: block; max-height: 40rem; margin: 1.75em auto; border-radius: var(--radius-sm); }
 .prose :where(hr) { margin: 2.75em 0; border: 0; border-top: 1px solid var(--border); }
 .prose :where(table) {
   display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse;

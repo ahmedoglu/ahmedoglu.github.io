@@ -53,7 +53,7 @@
 <meta property="article:tag" content="{{ t | escape }}">
 {%- endfor %}
 {%- endif %}
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="{% if page.image %}summary_large_image{% else %}summary{% endif %}">
 <meta name="twitter:title" content="{{ og_title | escape }}">
 <meta name="twitter:description" content="{{ seo_desc | escape }}">
 <meta name="twitter:image" content="{{ seo_image }}">
