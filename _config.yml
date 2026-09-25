@@ -51,6 +51,11 @@ profiles:
   bluesky:
   x:
 
+# Visitor statistics with GoatCounter (no cookies, no personal data).
+# Dashboard: https://ahmedoglu.goatcounter.com  ·  Leave the code empty to switch counting off.
+analytics:
+  goatcounter: ahmedoglu
+
 # Newsletter shown on the Writing page (posts are listed in _data/substack.yml)
 newsletter:
   name: Defense Economics Notes

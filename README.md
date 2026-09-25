@@ -161,6 +161,15 @@ One or two sentences about the course.
 `date` only sets the order, newest first. To hide the Teaching page and its
 menu link, set `published: false` in `_pages/teaching.md`.
 
+## Visitor statistics
+
+The site counts visits with GoatCounter. It uses no cookies and stores no
+personal data, so no cookie banner is needed. See countries, browsers,
+operating systems, referring sites, and popular pages at
+<https://ahmedoglu.goatcounter.com>. To stop counting your own visits, open
+<https://ahmedoglu.github.io/#toggle-goatcounter> once in each browser you use.
+To switch counting off, empty `goatcounter:` under `analytics:` in `_config.yml`.
+
 ## Old addresses
 
 The site was redesigned in September 2026. Every old address, such as

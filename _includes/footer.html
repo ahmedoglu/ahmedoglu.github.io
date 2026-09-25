@@ -9,5 +9,8 @@
   <div class="container footer-bottom">
     <p>© {{ site.time | date: "%Y" }} {{ site.author.name }}</p>
     <p>Last updated {{ site.time | date: "%B %-d, %Y" }} · <a href="{{ '/feed.xml' | relative_url }}">{% include icon.html name="rss" %}RSS feed</a></p>
+    {%- if site.analytics.goatcounter %}
+    <p class="footer-privacy">Visits are counted with <a href="https://www.goatcounter.com">GoatCounter</a>, without cookies or personal data.</p>
+    {%- endif %}
   </div>
 </footer>

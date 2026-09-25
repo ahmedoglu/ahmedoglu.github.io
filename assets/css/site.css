@@ -666,6 +666,7 @@ details[open] > .toc-title::after { content: "−"; }
   padding-block: 1rem 2rem; border-top: 1px solid var(--border); color: var(--muted); font-size: .85rem;
 }
 .footer-bottom p { margin: 0; }
+.footer-bottom .footer-privacy { flex-basis: 100%; }
 .footer-bottom a { display: inline-flex; align-items: center; gap: .35rem; color: inherit; }
 .footer-bottom a:hover { color: var(--accent); }
 
