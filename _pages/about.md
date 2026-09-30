@@ -16,7 +16,7 @@ interests:
   - Defense-industrial base
   - European rearmament
   - EU defense cooperation (EDF, PESCO)
-  - Dynamic public goods
+  - Public goods in alliances
   - Alliance burden sharing
   - Securitization & strategic autonomy
   - Causal inference
@@ -38,7 +38,7 @@ I study how Europe buys, builds, and coordinates its defense. As a doctoral rese
 
 ### Research
 
-My work draws on two kinds of evidence: contracts and words. Using tender records from across Europe, I find that after Russia’s full-scale invasion of Ukraine, defense buyers turned not to more competition but to negotiated sole-source awards for incumbent prime contractors. Using text analysis of more than six million sentences, I trace how EU institutions translate the same crises into different languages of threat, sovereignty, and capability. Other projects study defense pooling among European states and Czechia’s defense-industrial strategy. My next paper, *Paying to the Line*, uses a dynamic public-good model of alliances to study NATO’s spending targets as a threshold backed by conditional U.S. protection, and asks whether allies meet them by spending more or by counting more.
+My work draws on two kinds of evidence: contracts and words. Using tender records from across Europe, I find that after Russia’s full-scale invasion of Ukraine, defense buyers turned not to more competition but to negotiated sole-source awards for incumbent prime contractors. Using text analysis of more than six million sentences, I trace how EU institutions translate the same crises into different languages of threat, sovereignty, and capability. Other projects study defense pooling among European states and Czechia’s defense-industrial strategy. My next paper, *Paying to the Line*, reads NATO’s own figures release by release to ask how allies reach the two-percent line: by spending more, by counting more, or by announcing figures that are later revised away, and what each does to the alliance’s defense.
 
 ### Background
 

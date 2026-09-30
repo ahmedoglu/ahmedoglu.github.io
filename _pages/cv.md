@@ -100,7 +100,7 @@ I worked on the ERC-funded project SYNCPOL: Synchronized Politics, where I model
 
 ## Work in progress
 
-- *Paying to the Line: Spending Targets, Conditional Protection, and Burden Sharing in NATO*. Second dissertation paper, in preparation.
+- *Paying to the Line: Real and Reported Compliance with NATO’s Two-Percent Guideline*. Second dissertation paper, in preparation.
 
 ## Presentations
 
