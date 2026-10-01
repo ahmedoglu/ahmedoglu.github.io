@@ -127,6 +127,7 @@ main:focus { outline: none; }
 }
 .skip-link:focus { top: .75rem; }
 .no-js .js-only { display: none !important; }
+[hidden] { display: none !important; }
 .icon { width: 1.1em; height: 1.1em; flex: none; vertical-align: -.17em; }
 
 /* ---------- Header ---------- */
@@ -500,7 +501,8 @@ details[open] > .toc-title::after { content: "−"; }
   display: flex; gap: 1.15rem; align-items: flex-start; padding: 1.25rem 1.35rem;
   border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg-alt);
 }
-.author-card img { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; background: #fff; }
+.author-card .portrait { flex: none; display: block; width: 80px; height: 80px; }
+.author-card img { display: block; width: 80px; height: 80px; border-radius: 50%; object-fit: cover; background: #fff; }
 .author-card-name { margin: 0 0 .2rem; font-weight: 700; }
 .author-card-name a { color: var(--text); text-decoration: none; }
 .author-card-name a:hover { color: var(--accent); }
