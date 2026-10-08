@@ -1,5 +1,5 @@
 # =============================================================================
-#  Site settings for ahmedoglu.github.io
+#  Site settings for ahmedoglu.com (hosted by GitHub Pages from the ahmedoglu.github.io repository)
 #  GitHub Pages rebuilds the site automatically 1–2 minutes after each change.
 # =============================================================================
 
@@ -8,7 +8,7 @@ description: >-
   Doctoral researcher at the University of Vienna working on defense economics
   and market design in European defense: procurement, burden sharing, and
   the defense-industrial base.
-url: https://ahmedoglu.github.io
+url: https://ahmedoglu.com
 baseurl: ""
 repository: ahmedoglu/ahmedoglu.github.io
 lang: en

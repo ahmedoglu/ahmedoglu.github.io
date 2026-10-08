@@ -1,6 +1,7 @@
-# ahmedoglu.github.io
+# ahmedoglu.com
 
-Personal academic website of **Mümin Ahmedoğlu**: <https://ahmedoglu.github.io>
+Personal academic website of **Mümin Ahmedoğlu**: <https://ahmedoglu.com>
+(hosted by GitHub Pages; the old address ahmedoglu.github.io redirects here)
 
 The site is built by GitHub Pages with Jekyll. Every change you commit to the
 `master` branch goes live automatically after 1–2 minutes. You can edit
@@ -168,8 +169,15 @@ The site counts visits with GoatCounter. It uses no cookies and stores no
 personal data, so no cookie banner is needed. See countries, browsers,
 operating systems, referring sites, and popular pages at
 <https://ahmedoglu.goatcounter.com>. To stop counting your own visits, open
-<https://ahmedoglu.github.io/#toggle-goatcounter> once in each browser you use.
+<https://ahmedoglu.com/#toggle-goatcounter> once in each browser you use.
 To switch counting off, empty `goatcounter:` under `analytics:` in `_config.yml`.
+
+## Domain
+
+The site is served at ahmedoglu.com, a domain registered at Cloudflare. The
+`CNAME` file in this folder tells GitHub Pages the domain; do not delete it.
+DNS is managed in the Cloudflare dashboard (four A records for the bare domain
+pointing at GitHub Pages, a CNAME for www, and a GitHub verification record).
 
 ## Old addresses
 
