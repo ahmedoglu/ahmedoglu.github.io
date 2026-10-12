@@ -69,7 +69,7 @@ Supervisor: Prof. Dr. Hanna Hottenrott · Advisor: Dr. David Angenendt
 ### B.Sc. Industrial Engineering
 Middle East Technical University (METU) · Ankara, Türkiye · Sep 2014–Sep 2022
 
-I specialized in systems design and developed my bachelor’s thesis, with Şişecam, on improving sales processes through an offline case decision support system design. Systems design project: [*DHL Supply Chain: Vehicle Control and Order Quantity Estimation Decision Support System*](/research/dhl-crossdock-decision-support/).
+I specialized in systems design and developed my bachelor’s thesis with Şişecam: [*Design of a Decision Support System for Improving Sales Processes through an Offline Point-of-Sale System*](/research/sisecam-offline-pos-decision-support/). Systems design project: [*DHL Supply Chain: Vehicle Control and Order Quantity Estimation Decision Support System*](/research/dhl-crossdock-decision-support/).
 
 <details markdown="1">
 <summary>Selected coursework</summary>

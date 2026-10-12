@@ -1,6 +1,6 @@
 ---
 title: "Integrated Supply Collection and Ordering System for a Crossdock Facility"
-authors: [Mümin Ahmedoğlu, Nargiz Almadadli, Elif Kuşcu, Yeşim Kumbaracı, Ataberk Yılmaz]
+authors: [Mümin Ahmedoğlu]
 date: 2021-06-01
 category: project
 venue: Systems Design Project, Middle East Technical University, with DHL Supply Chain
