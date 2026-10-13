@@ -3,7 +3,9 @@
 {%- if _list.first == nil -%}{%- assign _list = _list | split: "|" -%}{%- endif -%}
 {%- assign _n = _list.size -%}
 {%- for a in _list -%}
-  {%- if a == site.author.name -%}{%- capture _name -%}<span class="me">{{ a }}</span>{%- endcapture -%}{%- else -%}{%- assign _name = a -%}{%- endif -%}
+  {%- if a == site.author.name -%}{%- capture _name -%}<span class="me">{{ a }}</span>{%- endcapture -%}
+  {%- elsif site.data.coauthors[a] -%}{%- capture _name -%}<a class="coauthor" href="{{ site.data.coauthors[a] }}">{{ a }}</a>{%- endcapture -%}
+  {%- else -%}{%- assign _name = a -%}{%- endif -%}
   {%- if forloop.first -%}{%- assign _sep = "" -%}{%- elsif forloop.last and _n > 2 -%}{%- assign _sep = ", and " -%}{%- elsif forloop.last -%}{%- assign _sep = " and " -%}{%- else -%}{%- assign _sep = ", " -%}{%- endif -%}
   {{- _sep }}{{ _name -}}
 {%- endfor -%}

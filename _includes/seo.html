@@ -135,7 +135,7 @@
   "@type": "ScholarlyArticle",
   "headline": {{ page.title | strip_html | jsonify }},
   "name": {{ page.title | strip_html | jsonify }},
-  "author": [{% for a in page.authors %}{ "@type": "Person", "name": {{ a | jsonify }} }{% unless forloop.last %}, {% endunless %}{% endfor %}],
+  "author": [{% for a in page.authors %}{ "@type": "Person", "name": {{ a | jsonify }}{% if a == site.author.name %}, "url": {{ person_url | jsonify }}{% elsif site.data.coauthors[a] %}, "url": {{ site.data.coauthors[a] | jsonify }}{% endif %} }{% unless forloop.last %}, {% endunless %}{% endfor %}],
   "datePublished": {{ page.date | date: "%Y-%m-%d" | jsonify }},
   "abstract": {{ page.content | strip_html | normalize_whitespace | strip | jsonify }},
   {%- if page.category == "journal" and page.venue %}

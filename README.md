@@ -23,6 +23,7 @@ and commit.
 | CV                                | `_pages/cv.md`                            |
 | Menu                              | `_data/navigation.yml`                    |
 | Essay topics (filters)            | `_data/topics.yml`                        |
+| Co-author profile links           | `_data/coauthors.yml`                     |
 | Colors and design                 | `assets/css/site.css` (color tokens at the top) |
 
 ## Add an essay
@@ -90,6 +91,9 @@ keywords: [Defense procurement, EDF]
 
 The abstract goes here.
 ```
+
+To make a co-author’s name a link, add `Name: URL` to `_data/coauthors.yml`,
+spelling the name exactly as in `authors`.
 
 A citation (APA) and a BibTeX entry are generated automatically from these
 fields. When a working paper is published, change `category` to `journal` and
