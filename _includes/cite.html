@@ -40,7 +40,8 @@
   {%- unless ww == "" or stop contains ww -%}{%- assign key_word = ww -%}{%- break -%}{%- endunless -%}
 {%- endfor -%}
 {%- assign key = key_last | append: year | append: key_word -%}
-{%- assign bib_title = p.title | replace: "&", "\&" -%}
+{%- comment -%} split/join rather than replace: Liquid's replace is Ruby gsub, where "\&" means the match itself {%- endcomment -%}
+{%- assign bib_title = p.title | split: "&" | join: "\&" -%}
 {%- assign page_url = p.url | absolute_url -%}
 
 {%- case p.category -%}
