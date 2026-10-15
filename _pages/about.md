@@ -26,19 +26,20 @@ interests:
 bio_third_person: >-
   Mümin Ahmedoğlu is a doctoral researcher in the Department of Business
   Decisions and Analytics at the University of Vienna. He works in defense
-  economics, with a focus on procurement, burden sharing, and market
-  design in European defense. His recent work examines how the 2022 rearmament shock reshaped
-  competition in European defense procurement. Before academia, he worked on unmanned aerial
+  economics and market design in European defense. His dissertation studies how national
+  buyers and governments decide at the margins drawn by the EU’s procurement rules, NATO’s
+  spending guideline, and the pooling programs of the Union and the Alliance, and what those
+  decisions mean for competition, burden sharing, and joint capability. Before academia, he worked on unmanned aerial
   vehicle programs at Baykar and STM in Türkiye. He holds an M.Sc. in
   Management and Technology from the Technical University of Munich and a
   B.Sc. in Industrial Engineering from Middle East Technical University.
 ---
 
-I study how Europe buys, builds, and coordinates its defense. As a doctoral researcher at the University of Vienna, I work on defense economics and market design in European defense, with a focus on procurement and burden sharing: who pays for the alliance, who wins defense contracts, and what Europe’s largest defense build-up since the Cold War means for competition, innovation, and the defense-industrial base.
+I study how Europe buys, counts, and pools its defense. As a doctoral researcher at the University of Vienna, I work on defense economics and market design in European defense: how buyers and governments decide at the margins that common rules draw, who wins defense contracts, how allies meet NATO’s spending line, and what Europe’s largest defense build-up since the Cold War means for competition, burden sharing, and joint capability.
 
 ### Research
 
-My work draws on two kinds of evidence: contracts and words. Using tender records from across Europe, I find that after Russia’s full-scale invasion of Ukraine, defense buyers turned not to more competition but to negotiated sole-source awards for incumbent prime contractors. Using text analysis of more than six million sentences, I trace how EU institutions translate the same crises into different languages of threat, sovereignty, and capability. Other projects study defense pooling among European states and Czechia’s defense-industrial strategy. My next paper, *Paying to the Line*, reads NATO’s own figures release by release to ask how allies reach the two-percent line: by spending more, by counting more, or by announcing figures that are later revised away, and what each does to the alliance’s defense.
+My dissertation, *Buying, Counting and Pooling*, studies the national decisions that Europe’s common rules leave free. In the procurement registers of Spain, Italy, and Portugal, the estimated values of defense contracts bunch just below the EU thresholds above which the Union’s procedures apply. After Russia’s full-scale invasion of Ukraine, defense buyers across Europe turned not to more competition but to negotiated sole-source awards for incumbent prime contractors. *Paying to the Line* reads NATO’s own figures release by release to ask how allies reach the two-percent line: by spending more, by counting more, or by announcing figures that are later revised away. With Bohuslav Pernica, I study how 496 pooling programs of the EU and NATO integrate European defense layer by layer. Alongside the dissertation, I use text analysis of more than six million sentences to trace how EU institutions translate the same crises into different languages of threat, sovereignty, and capability, and I study Czechia’s defense-industrial strategy.
 
 ### Background
 

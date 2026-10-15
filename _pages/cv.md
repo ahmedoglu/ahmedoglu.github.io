@@ -21,7 +21,7 @@ description: >-
 ### Ph.D. in Business Decisions and Analytics
 University of Vienna · Vienna, Austria · Oct 2025–present
 
-Dissertation: how Europe’s rearmament is changing the way allies pay for and buy defense, and what this means for competition, innovation, firms, and burden sharing
+Dissertation: *Buying, Counting and Pooling: National Decisions under Common Rules in Europe’s Rearmament*, four essays on the EU’s procurement thresholds and procedures, NATO’s two-percent guideline, and pooling in the Union and the Alliance
 
 Supervisors: Prof. Dr. Oliver Fabel and Ass.-Prof. Dr. Dmitriy Knyazev
 
@@ -83,7 +83,7 @@ Introduction to Probability · Introduction to Statistics · Statistical Linear 
 ### Doctoral Researcher, Economics of Defense Procurement
 University of Vienna, Department of Business Decisions and Analytics · Vienna, Austria · Oct 2025–present
 
-I research the economics of defense procurement and alliance burden sharing: how Europe’s post-2022 rearmament is changing competition and supplier selection in defense procurement, and how NATO’s spending targets shape what allies spend and report. I also teach Human Resource Management in the Bachelor program in Business Administration.
+I research how Europe’s common rules shape national decisions in its rearmament: how defense buyers respond to the EU’s procurement thresholds and to the demand shock of 2022, how NATO’s spending targets shape what allies spend and report, and how the pooling programs of the EU and NATO integrate European defense. I also teach Human Resource Management in the Bachelor program in Business Administration.
 
 ### Graduate Research Assistant, SYNCPOL (ERC Advanced Grant)
 Ludwig-Maximilians-Universität München (LMU) · Munich, Germany · Apr 2025–Oct 2025
@@ -100,7 +100,7 @@ I worked on the ERC-funded project SYNCPOL: Synchronized Politics, where I model
 
 ## Work in progress
 
-- *Paying to the Line: Real and Reported Compliance with NATO’s Two-Percent Guideline*. Second dissertation paper, in preparation.
+- *Paying to the Line: Real and Reported Compliance with NATO’s Two-Percent Guideline*. Third dissertation paper, in preparation.
 
 ## Presentations
 

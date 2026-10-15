@@ -14,15 +14,15 @@ redirect_from:
 class: research
 toc: true
 lead: >-
-  I study the economics of European defense: who pays for it, how it is
-  bought, and how allies coordinate it. My work focuses on procurement,
-  alliance burden sharing, and the design of European defense markets.
+  I study the economics of European defense: how it is bought, how its cost
+  is counted, and how allies pool it. My work focuses on procurement, alliance
+  burden sharing, and defense cooperation under Europe’s common rules.
 description: >-
   Publications, working papers, and research projects by Mümin Ahmedoğlu on
   defense procurement, alliance burden sharing, and European defense cooperation.
 ---
 
-My work combines three kinds of tools. Causal inference on administrative data, such as tender records and NATO’s annual spending reports, shows how rules and shocks change what governments actually do. Formal models, from public-good models of alliances to contract and game theory, explain why they respond as they do. Computational text analysis traces how European institutions talk about defense. Alongside the dissertation, I work on security discourse in EU institutions, on defense pooling among European states, and on the defense-industrial strategies of smaller states such as Czechia and Türkiye. My goal is to show how economic analysis can improve defense cooperation and policy design in Europe.
+My work combines three kinds of tools. Causal inference on administrative data, such as tender records and NATO’s annual spending reports, shows how rules and shocks change what governments actually do. Formal models, from public-good models of alliances to contract and game theory, explain why they respond as they do. Computational text analysis traces how European institutions talk about defense. Alongside the dissertation, I work on security discourse in EU institutions and on the defense-industrial strategies of smaller states such as Czechia and Türkiye. My goal is to show how economic analysis can improve defense cooperation and policy design in Europe.
 
 An up-to-date list of my work is also available on [Google Scholar](https://scholar.google.com/citations?hl=en&user=KxX2plAAAAAJ) and [ORCID](https://orcid.org/0009-0006-2029-8133).
 
@@ -36,13 +36,17 @@ An up-to-date list of my work is also available on [Google Scholar](https://scho
 
 ## Current projects
 
-### Rearmament, Procurement, and Burden Sharing in European Defense
+### Buying, Counting and Pooling: National Decisions under Common Rules in Europe’s Rearmament
 PhD dissertation · University of Vienna · Supervised by Prof. Dr. Oliver Fabel and Ass.-Prof. Dr. Dmitriy Knyazev
 
-My dissertation studies how Europe’s rearmament is changing the way allies pay for defense and the way they buy it, and what these changes mean for competition, innovation, firms, and burden sharing. The first paper, [*Buying Under Fire*](/research/buying-under-fire/), works with procurement records from across Europe, firm-level data on contract winners, and the networks of firms in EU defense programs such as the European Defence Fund. It asks who wins defense contracts after Russia’s full-scale invasion of Ukraine, through which procedures, and with what consequences for competition and for Europe’s defense-industrial base. The second paper, *Paying to the Line*, turns from buying to paying and asks how allies meet NATO’s two-percent line, and how much of what they report is real.
+Europe is rearming through three activities under common rules: it buys under the European Union’s procurement directives, counts its effort against NATO’s spending line, and pools capabilities in the programs of the Union and the Alliance. Each rule draws a margin, such as a value threshold, a list of legal grounds for awards without competition, a reported share of GDP, or the membership of a pool, and leaves the decision at that margin to national buyers and governments, who know more than the rule can see. My dissertation studies these national decisions and what they do to the goals the common rules serve: competition, real burden sharing, and joint capability.
+
+Two essays study buying. The first, [*Just Below the Line*](/research/just-below-the-line/), derives a buyer’s choice between tendering and direct award and finds that the estimated values of defense contracts in the national registers of Spain, Italy, and Portugal bunch just below the Union’s procurement thresholds. The bunching moves with a threshold when it is revised, and no difference is detected between defense and civilian buyers. The essay measures how many procedures the higher threshold of the 2026 Defence Readiness Omnibus will take out of European competition, and predicts that the bunching below the new threshold will be thin. The second, [*Buying Under Fire*](/research/buying-under-fire/), asks how the demand shock of 2022 changed buyers’ choice of procedure and the legal grounds they invoke for awards without competition. The third essay, *Paying to the Line*, studies counting: it models compliance with NATO’s two-percent guideline as a choice between real spending and accounting effort, when the Alliance observes only their sum and the United States ties its protection to the reported figure, and confronts the model with a new real-time dataset of NATO’s releases. The fourth essay, written with Bohuslav Pernica, studies [pooling across 496 programs of the Union and NATO](/research/pools-european-structural-integration/) and finds that integration is layered: functional in industry, associational in the rear echelon, and territorial in military operations.
+
+The argument that joins the four essays is that common rules shape national decisions at the margins they draw, and that whether the rules’ goals are met depends on the choices they leave free. The dissertation draws design lessons for the rules now being rewritten: the Omnibus’s higher procurement threshold, and NATO’s new two-part target, for which a reward written on a reported figure invites no counting only if it rises gradually rather than jumping at the line.
 
 ### Paying to the Line: Real and Reported Compliance with NATO’s Two-Percent Guideline
-Second dissertation paper · In preparation
+Third dissertation paper · In preparation
 
 NATO’s two-percent guideline is a salient number, and the United States has repeatedly made its protection conditional on allies’ reported spending. The paper asks how allies reach the line: by spending more, by counting more (re-labelling expenditure that already exists, within NATO’s definition), or by announcing more (a figure that is later revised away), and what each way of reaching the line does to the alliance’s defense. Its evidence is NATO’s own figures read release by release: a new real-time dataset with one observation per release, ally, and year since 2014, covering first-published figures, their later revisions, and their composition, reconciled with SIPRI and national-accounts measures, together with a country-by-country inventory of what allies count under NATO’s definition. In the model, compliance is a choice: an ally can close its gap to the line with real spending or with accounting effort, NATO sees only their sum, and the shape of the reward decides who ends at the line, who counts, and whether counting costs the alliance real defense. A test of mechanism asks whether who reaches the line, and when, varies with U.S. conditionality and with dependence on U.S. protection, which separates conditional protection from a guideline that has simply become a goal. The paper closes with dated predictions for the new two-part target of 3.5% on core defense and up to 1.5% on related spending, to be judged against NATO’s releases before the 2029 review.
 
